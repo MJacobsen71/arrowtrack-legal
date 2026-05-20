@@ -1,17 +1,19 @@
 # ArrowTrack
 
-iOS-app for konkurranseskyttere i bueskyting. WA Book 3-kompatibel scoring med 10 språk og atmosfæriske temaer.
+**iOS app for archery. From your first arrow to your hundredth tournament — built for everyone who shoots.**
 
-**iOS-app for archery competition shooters. WA Book 3 compliant with 10 languages and atmospheric themes.**
+WA Book 3 compliant scoring, 10 languages, atmospheric themes, in-depth statistics. Offline-first — your data lives on your iPhone.
+
+*iOS-app for bueskyting. Fra første pil til hundrede stevne — laget for alle som skyter. WA Book 3-kompatibel scoring, 10 språk, atmosfæriske temaer, dyp statistikk. Offline-first — dataene dine bor på din iPhone.*
 
 ---
 
-## Personvern / Privacy Policy
+## Privacy Policy
 
-| Språk | Language | Link |
-|-------|----------|------|
-| 🇳🇴 | Norsk (Bokmål) | [Personvern](./privacy-no) |
+| Language | Språk | Link |
+|----------|-------|------|
 | 🇬🇧 | English | [Privacy Policy](./privacy-en) |
+| 🇳🇴 | Norsk (Bokmål) | [Personvern](./privacy-no) |
 | 🇩🇪 | Deutsch | [Datenschutzerklärung](./privacy-de) |
 | 🇫🇷 | Français | [Politique de confidentialité](./privacy-fr) |
 | 🇮🇹 | Italiano | [Informativa sulla privacy](./privacy-it) |
@@ -25,10 +27,10 @@ iOS-app for konkurranseskyttere i bueskyting. WA Book 3-kompatibel scoring med 1
 
 ## Support
 
-| Språk | Language | Link |
-|-------|----------|------|
-| 🇳🇴 | Norsk (Bokmål) | [Support](./support-no) |
+| Language | Språk | Link |
+|----------|-------|------|
 | 🇬🇧 | English | [Support](./support-en) |
+| 🇳🇴 | Norsk (Bokmål) | [Support](./support-no) |
 | 🇩🇪 | Deutsch | [Support](./support-de) |
 | 🇫🇷 | Français | [Support](./support-fr) |
 | 🇮🇹 | Italiano | [Supporto](./support-it) |
@@ -40,12 +42,12 @@ iOS-app for konkurranseskyttere i bueskyting. WA Book 3-kompatibel scoring med 1
 
 ---
 
-## Kontakt / Contact
+## Contact
 
-**E-post / Email:** [galge.vender.0a@icloud.com](mailto:galge.vender.0a@icloud.com)
+**Email:** [galge.vender.0a@icloud.com](mailto:galge.vender.0a@icloud.com)
 
-**Utvikler / Developer:** Morten Jacobsen, Norge
+**Developer:** Morten Jacobsen, Norway
 
 ---
 
-*Sist oppdatert / Last updated: 2026-05-20*
+*Last updated: 2026-05-20*
