@@ -2,7 +2,7 @@
 
 **Sist oppdatert:** 2026-05-15
 **Behandlingsansvarlig:** Morten Jacobsen, Norge
-**Kontakt:** support@arrowtrack.app
+**Kontakt:** galge.vender.0a@icloud.com
 
 ---
 
@@ -130,5 +130,5 @@ behandler data. Endringer kommuniseres via:
 
 Hvis du mener vi behandler dine personopplysninger i strid med GDPR har du
 rett til å klage til [Datatilsynet](https://www.datatilsynet.no/). Du
-oppfordres til å kontakte oss først på support@arrowtrack.app — vi tar alle
+oppfordres til å kontakte oss først på galge.vender.0a@icloud.com — vi tar alle
 henvendelser om personvern på alvor.

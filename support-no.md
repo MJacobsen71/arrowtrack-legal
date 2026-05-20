@@ -2,7 +2,7 @@
 
 **Sist oppdatert:** 2026-05-20
 **Versjon dekket:** v1.0+
-**Kontakt:** support@arrowtrack.app
+**Kontakt:** galge.vender.0a@icloud.com
 
 ---
 
@@ -48,7 +48,7 @@ I etterregistrering-modus: trykk på pil-merket i score-pad og velg ny verdi.
 3. Åpne ArrowTrack → **Innstillinger → Lisens → Gjenopprett kjøp**
 4. Pro reaktiveres automatisk
 
-Hvis du har byttet Apple-ID: kontakt support@arrowtrack.app så hjelper vi deg.
+Hvis du har byttet Apple-ID: kontakt galge.vender.0a@icloud.com så hjelper vi deg.
 
 ### Hvordan eksporterer jeg data?
 
@@ -93,7 +93,7 @@ Alle formater inkluderer offisiell WA Book 3-compliance: line-breaking-regel, se
 
 1. Slå av iPhone og start på nytt
 2. Hvis fortsatt problem: avinstaller og reinstaller ArrowTrack (kjøps-data tapes IKKE — kvittering forblir hos Apple)
-3. Send krasj-logg til support@arrowtrack.app: **Innstillinger → Personvern og sikkerhet → Analytics og forbedringer → Analytics Data** → finn ArrowTrack-logg → del med oss
+3. Send krasj-logg til galge.vender.0a@icloud.com: **Innstillinger → Personvern og sikkerhet → Analytics og forbedringer → Analytics Data** → finn ArrowTrack-logg → del med oss
 
 Hvis du har valgt å dele analytics med utvikleren via iOS, sendes krasj-logger automatisk til oss.
 
@@ -104,7 +104,7 @@ ArrowTrack lagrer alt lokalt i SQLite. Oppdateringer migrerer databasen forward-
 Hvis du opplever data-tap:
 1. Verifiser at du er logget inn med samme Apple-ID
 2. Sjekk **Innstillinger → Om appen → Versjonsnummer** — er den oppdatert?
-3. Send oss en beskrivelse på support@arrowtrack.app
+3. Send oss en beskrivelse på galge.vender.0a@icloud.com
 
 Vi har en strikt regel om at publiserte migrations er immutable — data-tap fra oppdateringer skal aldri skje. Hvis det gjør det, har vi en bug og vi vil høre om det.
 
@@ -124,7 +124,7 @@ Dette var en bug i v0.28.2 og tidligere — fikset i v0.28.3. Oppdater appen til
 
 ### Foreslå nye features
 
-Send en e-post til support@arrowtrack.app med:
+Send en e-post til galge.vender.0a@icloud.com med:
 - **Hva** du vil ha (kort beskrivelse)
 - **Hvorfor** (hva ville det forbedre i din skytetrening?)
 - **Hvor ofte** ville du brukt det (daglig / per økt / sjeldnere)
@@ -133,7 +133,7 @@ Vi leser hver eneste forespørsel og publiserer prioriterte features i appens «
 
 ### Rapporter bug
 
-Send en e-post til support@arrowtrack.app med:
+Send en e-post til galge.vender.0a@icloud.com med:
 - **Hva som gikk galt** (skriv så detaljert du klarer)
 - **Hva du forventet å skje**
 - **Steg-for-steg** for hvordan reprodusere
@@ -152,7 +152,7 @@ For full personvernerklæring: [Personvern](https://mjacobsen71.github.io/arrowt
 
 For å eksportere dataene dine, slette en sesjon, eller utøve andre GDPR-rettigheter: se Personvernerklæringen.
 
-Klager om personvern: kontakt oss på support@arrowtrack.app **først**. Hvis vi ikke løser saken, kan du klage til [Datatilsynet](https://www.datatilsynet.no/).
+Klager om personvern: kontakt oss på galge.vender.0a@icloud.com **først**. Hvis vi ikke løser saken, kan du klage til [Datatilsynet](https://www.datatilsynet.no/).
 
 ---
 

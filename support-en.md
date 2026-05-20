@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-05-20
 **Version covered:** v1.0+
-**Contact:** support@arrowtrack.app
+**Contact:** galge.vender.0a@icloud.com
 
 ---
 
@@ -48,7 +48,7 @@ The 📋 icon marks sessions that were entered manually using the score pad, not
 3. Open ArrowTrack → **Settings → License → Restore Purchases**
 4. Pro reactivates automatically
 
-If you've changed Apple ID: contact support@arrowtrack.app and we'll help you.
+If you've changed Apple ID: contact galge.vender.0a@icloud.com and we'll help you.
 
 ### How do I export my data?
 
@@ -93,7 +93,7 @@ All formats include official WA Book 3 compliance: line-breaking rule, separate 
 
 1. Turn iPhone off and on again
 2. If still failing: uninstall and reinstall ArrowTrack (purchase data is NOT lost — receipt remains with Apple)
-3. Send crash log to support@arrowtrack.app: **Settings → Privacy & Security → Analytics & Improvements → Analytics Data** → find the ArrowTrack log → share with us
+3. Send crash log to galge.vender.0a@icloud.com: **Settings → Privacy & Security → Analytics & Improvements → Analytics Data** → find the ArrowTrack log → share with us
 
 If you've chosen to share analytics with the developer via iOS, crash logs are automatically sent to us.
 
@@ -104,7 +104,7 @@ ArrowTrack stores everything locally in SQLite. Updates migrate the database for
 If you experience data loss:
 1. Verify you're signed in with the same Apple ID
 2. Check **Settings → About the app → Version number** — is it the latest?
-3. Send us a description at support@arrowtrack.app
+3. Send us a description at galge.vender.0a@icloud.com
 
 We have a strict rule that published migrations are immutable — data loss from updates should never happen. If it does, we have a bug and we want to hear about it.
 
@@ -124,7 +124,7 @@ This was a bug in v0.28.2 and earlier — fixed in v0.28.3. Update the app to th
 
 ### Suggest a new feature
 
-Send an email to support@arrowtrack.app with:
+Send an email to galge.vender.0a@icloud.com with:
 - **What** you want (brief description)
 - **Why** (what would it improve in your training?)
 - **How often** would you use it (daily / per session / less frequently)
@@ -133,7 +133,7 @@ We read every single request and publish prioritized features in the app's «Wha
 
 ### Report a bug
 
-Send an email to support@arrowtrack.app with:
+Send an email to galge.vender.0a@icloud.com with:
 - **What went wrong** (as detailed as you can)
 - **What you expected to happen**
 - **Step-by-step** to reproduce
@@ -152,7 +152,7 @@ For the full privacy policy: [Privacy](https://mjacobsen71.github.io/arrowtrack-
 
 To export your data, delete a session, or exercise other GDPR rights: see the Privacy Policy.
 
-Privacy complaints: contact us at support@arrowtrack.app **first**. If we can't resolve the matter, you can complain to your national data protection authority. For Norway: [Datatilsynet](https://www.datatilsynet.no/).
+Privacy complaints: contact us at galge.vender.0a@icloud.com **first**. If we can't resolve the matter, you can complain to your national data protection authority. For Norway: [Datatilsynet](https://www.datatilsynet.no/).
 
 ---
 

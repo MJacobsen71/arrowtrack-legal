@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-05-15
 **Data Controller:** Morten Jacobsen, Norway
-**Contact:** support@arrowtrack.app
+**Contact:** galge.vender.0a@icloud.com
 
 ---
 
@@ -138,5 +138,5 @@ you have the right to complain to your national data protection authority:
 - **EU/EEA:** find your authority at
   [edpb.europa.eu](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 
-We encourage you to contact us first at support@arrowtrack.app — we take
+We encourage you to contact us first at galge.vender.0a@icloud.com — we take
 all privacy inquiries seriously.
