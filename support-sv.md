@@ -163,6 +163,6 @@ Integritetsklagomål: kontakta oss **först** på galge.vender.0a@icloud.com. Om
 **Integritetspolicy:** [Integritet](https://mjacobsen71.github.io/arrowtrack-legal/privacy-sv)
 **Licenser (öppen källkod):** se Inställningar → Om appen → Licenser i appen
 
-ArrowTrack är ett solo-utvecklarprojekt byggt för bågskyttar som tar World Archerys regler på allvar. Byggt med React Native + Expo + TypeScript + SQLite. Ingen backend, inget moln, ingen spårning.
+ArrowTrack är ett solo-utvecklarprojekt byggt för bågskyttar på alla nivåer — från din första pil till din hundrade tävling. WA Book 3-kompatibel poängräkning finns från dag ett, redo när du vill. Byggt med React Native + Expo + TypeScript + SQLite. Ingen backend, inget moln, ingen spårning.
 
 Tack för att du använder appen. 🏹

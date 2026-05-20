@@ -163,6 +163,6 @@ Tietosuojaa koskevat valitukset: ota yhteyttä meihin **ensin** osoitteessa galg
 **Tietosuojakäytäntö:** [Tietosuoja](https://mjacobsen71.github.io/arrowtrack-legal/privacy-fi)
 **Lisenssit (avoin lähdekoodi):** katso Asetukset → Tietoja sovelluksesta → Lisenssit sovelluksessa
 
-ArrowTrack on yhden kehittäjän projekti, joka on rakennettu jousiampujille, jotka ottavat World Archeryn säännöt vakavasti. Rakennettu React Nativella + Expolla + TypeScriptillä + SQLitella. Ei backendia, ei pilveä, ei seurantaa.
+ArrowTrack on yhden kehittäjän projekti, joka on rakennettu jousiampujille kaikilla tasoilla — ensimmäisestä nuolesta sadanteen kilpailuun. WA Book 3 -yhteensopiva pisteytys on mukana ensimmäisestä päivästä, valmiina kun haluat sen. Rakennettu React Nativella + Expolla + TypeScriptillä + SQLitella. Ei backendia, ei pilveä, ei seurantaa.
 
 Kiitos, että käytät sovellusta. 🏹

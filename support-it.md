@@ -163,6 +163,6 @@ Reclami sulla privacy: contattaci **prima** a galge.vender.0a@icloud.com. Se non
 **Informativa sulla privacy:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-it)
 **Licenze (open source):** vedi Impostazioni → Sull'app → Licenze nell'app
 
-ArrowTrack è un progetto di un singolo sviluppatore, costruito per arcieri che prendono sul serio le regole di World Archery. Costruito con React Native + Expo + TypeScript + SQLite. Niente backend, niente cloud, niente tracciamento.
+ArrowTrack è un progetto di un singolo sviluppatore, costruito per arcieri di ogni livello — dalla prima freccia alla centesima competizione. Il punteggio conforme al WA Book 3 è lì dal primo giorno, pronto quando lo vuoi. Costruito con React Native + Expo + TypeScript + SQLite. Niente backend, niente cloud, niente tracciamento.
 
 Grazie per aver usato l'app. 🏹

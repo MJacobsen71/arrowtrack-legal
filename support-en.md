@@ -163,6 +163,6 @@ Privacy complaints: contact us at support@arrowtrack.app **first**. If we can't 
 **Privacy Policy:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-en)
 **Licenses (open source):** See Settings → About the app → Licenses in the app
 
-ArrowTrack is a solo-developer project built for archers who take World Archery rules seriously. Built with React Native + Expo + TypeScript + SQLite. No backend, no cloud, no tracking.
+ArrowTrack is a solo-developer project built for archers at every level — from your first arrow to your hundredth tournament. WA Book 3 compliant scoring is there from day one, ready when you want it. Built with React Native + Expo + TypeScript + SQLite. No backend, no cloud, no tracking.
 
 Thanks for using the app. 🏹

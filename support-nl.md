@@ -163,6 +163,6 @@ Privacyklachten: neem **eerst** contact met ons op via galge.vender.0a@icloud.co
 **Privacybeleid:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-nl)
 **Licenties (open source):** zie Instellingen → Over de app → Licenties in de app
 
-ArrowTrack is een soloproject van één ontwikkelaar, gemaakt voor boogschutters die de regels van World Archery serieus nemen. Gebouwd met React Native + Expo + TypeScript + SQLite. Geen backend, geen cloud, geen tracking.
+ArrowTrack is een soloproject van één ontwikkelaar, gemaakt voor boogschutters op elk niveau — van je eerste pijl tot je honderdste wedstrijd. WA Book 3-conforme scoring is er vanaf dag één, klaar wanneer je het wilt. Gebouwd met React Native + Expo + TypeScript + SQLite. Geen backend, geen cloud, geen tracking.
 
 Bedankt dat je de app gebruikt. 🏹
