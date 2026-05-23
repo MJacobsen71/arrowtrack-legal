@@ -1,4 +1,4 @@
-# Support — ArrowTrack
+# Support — JacArrow
 
 **Laatst bijgewerkt:** 2026-05-20
 **Versie gedekt:** v1.0+
@@ -10,7 +10,7 @@
 
 ### Hoe registreer ik een passe?
 
-1. Open ArrowTrack → tik op **Nieuwe sessie** in het Home-tabblad
+1. Open JacArrow → tik op **Nieuwe sessie** in het Home-tabblad
 2. Kies locatie, blazoen en ronde-format → tik op **Sessie starten**
 3. **Tik op het blazoen** om elke pijl te plaatsen — gebruik pinch-zoom en de precisieloep voor nauwkeurigheid
 4. Tik op **Passe opslaan** wanneer alle pijlen zijn geplaatst
@@ -18,7 +18,7 @@
 
 ### Wat is het verschil tussen X en 10?
 
-De X-ring is de binnenste ring en levert 10 punten op — hetzelfde als de 10-ring. ArrowTrack houdt de X apart bij omdat de X gebruikt wordt als tie-break in wedstrijden. Tik op de «X»-knop wanneer een pijl de X-ring raakt in score-pad-modus.
+De X-ring is de binnenste ring en levert 10 punten op — hetzelfde als de 10-ring. JacArrow houdt de X apart bij omdat de X gebruikt wordt als tie-break in wedstrijden. Tik op de «X»-knop wanneer een pijl de X-ring raakt in score-pad-modus.
 
 ### Hoe corrigeer ik een verkeerd geplaatste pijl?
 
@@ -43,9 +43,9 @@ Het 📋-icoon markeert sessies die handmatig zijn ingevoerd met de score-pad, n
 
 ### Hoe herstel ik aankopen op een nieuwe iPhone?
 
-1. Download ArrowTrack op de nieuwe iPhone (gratis versie)
+1. Download JacArrow op de nieuwe iPhone (gratis versie)
 2. Log in met dezelfde Apple ID waarmee je Pro hebt gekocht
-3. Open ArrowTrack → **Instellingen → Licentie → Aankopen herstellen**
+3. Open JacArrow → **Instellingen → Licentie → Aankopen herstellen**
 4. Pro wordt automatisch geheractiveerd
 
 Als je van Apple ID bent gewisseld: neem contact op via galge.vender.0a@icloud.com en we helpen je.
@@ -58,7 +58,7 @@ De JSON bevat alle sessies, rondes, pijlen, doelen, boog-setups en instellingen 
 
 ### Hoe verwijder ik al mijn data?
 
-Deïnstalleer ArrowTrack → iOS verwijdert automatisch de hele SQLite-database en alle instellingen. Er blijft geen restdata op het apparaat achter.
+Deïnstalleer JacArrow → iOS verwijdert automatisch de hele SQLite-database en alle instellingen. Er blijft geen restdata op het apparaat achter.
 
 Als je Pro hebt gekocht: het bonnetje blijft bij Apple (voor terugbetaling en support). Verwijderen heeft geen invloed op toekomstige herinstallaties — Pro reactiveert automatisch via Aankopen herstellen.
 
@@ -92,14 +92,14 @@ Alle formats voldoen aan de officiële WA Book 3-conformiteit: lijnregel, aparte
 ### De app crasht bij het starten
 
 1. Zet de iPhone uit en weer aan
-2. Als het blijft: deïnstalleer en herinstalleer ArrowTrack (aankoopdata wordt NIET verloren — het bonnetje blijft bij Apple)
-3. Stuur het crash-log naar galge.vender.0a@icloud.com: **Instellingen → Privacy en beveiliging → Analyse en verbeteringen → Analysedata** → vind het ArrowTrack-log → deel met ons
+2. Als het blijft: deïnstalleer en herinstalleer JacArrow (aankoopdata wordt NIET verloren — het bonnetje blijft bij Apple)
+3. Stuur het crash-log naar galge.vender.0a@icloud.com: **Instellingen → Privacy en beveiliging → Analyse en verbeteringen → Analysedata** → vind het JacArrow-log → deel met ons
 
 Als je ervoor hebt gekozen om analyses te delen met de ontwikkelaar via iOS, worden crash-logs automatisch naar ons gestuurd.
 
 ### Scoredata is verdwenen na een update
 
-ArrowTrack slaat alles lokaal op in SQLite. Updates migreren de database alleen voorwaarts — oude data wordt geconverteerd naar het nieuwe format, nooit verwijderd.
+JacArrow slaat alles lokaal op in SQLite. Updates migreren de database alleen voorwaarts — oude data wordt geconverteerd naar het nieuwe format, nooit verwijderd.
 
 Als je dataverlies ervaart:
 1. Controleer dat je bent ingelogd met dezelfde Apple ID
@@ -112,7 +112,7 @@ We hebben een strenge regel dat gepubliceerde migraties onveranderlijk zijn — 
 
 1. Probeer met twee vingers, niet één
 2. Controleer dat «Verminder beweging» niet aan staat in **iOS-instellingen → Toegankelijkheid → Beweging** — dit kan gebaren in sommige apps beperken
-3. Sluit de app helemaal (veeg omhoog vanaf de onderkant, veeg ArrowTrack omhoog) en open opnieuw
+3. Sluit de app helemaal (veeg omhoog vanaf de onderkant, veeg JacArrow omhoog) en open opnieuw
 
 ### De constellatie trilt bij slepen
 
@@ -138,7 +138,7 @@ Stuur een e-mail naar galge.vender.0a@icloud.com met:
 - **Wat je had verwacht**
 - **Stap voor stap** om te reproduceren
 - **iOS-versie** en **iPhone-model** (Instellingen → Algemeen → Info)
-- **ArrowTrack-versie** (Instellingen → Over de app)
+- **JacArrow-versie** (Instellingen → Over de app)
 - Screenshot indien relevant
 
 ### Algemeen
@@ -148,7 +148,7 @@ We beantwoorden alle verzoeken binnen 3 werkdagen. Urgente problemen (crashes di
 
 ## AVG en privacy
 
-Voor het volledige privacybeleid: [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-nl)
+Voor het volledige privacybeleid: [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-nl)
 
 Om je data te exporteren, een sessie te verwijderen of andere AVG-rechten uit te oefenen: zie het Privacybeleid.
 
@@ -156,13 +156,13 @@ Privacyklachten: neem **eerst** contact met ons op via galge.vender.0a@icloud.co
 
 ---
 
-## Over ArrowTrack
+## Over JacArrow
 
 **Ontwikkelaar:** Morten Jacobsen, Noorwegen
-**Website:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Privacybeleid:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-nl)
+**Website:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Privacybeleid:** [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-nl)
 **Licenties (open source):** zie Instellingen → Over de app → Licenties in de app
 
-ArrowTrack is een soloproject van één ontwikkelaar, gemaakt voor boogschutters op elk niveau — van je eerste pijl tot je honderdste wedstrijd. WA Book 3-conforme scoring is er vanaf dag één, klaar wanneer je het wilt. Gebouwd met React Native + Expo + TypeScript + SQLite. Geen backend, geen cloud, geen tracking.
+JacArrow is een soloproject van één ontwikkelaar, gemaakt voor boogschutters op elk niveau — van je eerste pijl tot je honderdste wedstrijd. WA Book 3-conforme scoring is er vanaf dag één, klaar wanneer je het wilt. Gebouwd met React Native + Expo + TypeScript + SQLite. Geen backend, geen cloud, geen tracking.
 
 Bedankt dat je de app gebruikt. 🏹

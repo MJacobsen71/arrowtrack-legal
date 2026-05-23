@@ -1,4 +1,4 @@
-# Politique de confidentialité — ArrowTrack
+# Politique de confidentialité — JacArrow
 
 **Dernière mise à jour :** 2026-05-20
 **Responsable du traitement :** Morten Jacobsen, Norvège
@@ -8,7 +8,7 @@
 
 ## Version courte
 
-ArrowTrack stocke **toutes vos données localement sur votre appareil**. Nous n'avons aucun
+JacArrow stocke **toutes vos données localement sur votre appareil**. Nous n'avons aucun
 serveur qui reçoit vos tirs, vos séances ou vos objectifs. Lorsque vous désinstallez
 l'application, toutes les données disparaissent.
 
@@ -28,10 +28,10 @@ Vous disposez de l'intégralité des droits RGPD : accès, effacement et portabi
 - **Historique de l'app :** statut des coach-marks (les astuces que vous avez vues), indicateurs de tutoriels complétés
 
 Toutes ces données sont stockées dans une base de données SQLite et dans AsyncStorage sur votre iPhone.
-Ni ArrowTrack, ni aucun tiers, n'a accès à ces données.
+Ni JacArrow, ni aucun tiers, n'a accès à ces données.
 
 ### iCloud (uniquement si iCloud Drive est activé)
-ArrowTrack prévoit d'utiliser iCloud Key-Value Storage à une seule fin précise :
+JacArrow prévoit d'utiliser iCloud Key-Value Storage à une seule fin précise :
 mémoriser si vous avez déjà démarré la période d'essai. Cela se synchronise
 via votre compte iCloud pour empêcher qu'une désinstallation + réinstallation
 n'accorde une nouvelle période d'essai gratuite.
@@ -41,7 +41,7 @@ n'accorde une nouvelle période d'essai gratuite.
 - Cette fonctionnalité s'active lorsque nous lancerons le modèle Pro (Phase 4b)
 
 Si vous avez désactivé iCloud Drive, ou désactivé iCloud Drive spécifiquement
-pour ArrowTrack, iCloud n'est pas utilisé.
+pour JacArrow, iCloud n'est pas utilisé.
 
 ---
 
@@ -54,13 +54,13 @@ bancaires, d'adresses ou d'autres détails de paiement. La
 processus d'achat.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack envoie des notifications locales (RP atteint, expiration de la période d'essai,
+JacArrow envoie des notifications locales (RP atteint, expiration de la période d'essai,
 rappels d'objectifs). Pour les livrer, iOS enregistre un jeton d'appareil anonyme
 auprès d'Apple. Nous n'avons aucun serveur qui envoie des messages push — toutes les notifications
 sont générées localement sur votre appareil en fonction de l'état de l'app.
 
 ### RevenueCat (uniquement après achat Pro)
-Lorsque vous achetez ArrowTrack Pro, RevenueCat enregistre votre reçu et un
+Lorsque vous achetez JacArrow Pro, RevenueCat enregistre votre reçu et un
 `appUserId` anonyme (UUID généré sur votre appareil). Cela est nécessaire
 pour que l'app puisse vérifier votre achat lors d'utilisations ultérieures et lors de la
 « restauration des achats ». La
@@ -70,7 +70,7 @@ votre nom, votre e-mail ou d'autres données personnelles.
 ### Apple Analytics / rapports de plantage
 Si vous avez activé « Partager l'analyse de l'app » dans les Réglages iOS, Apple envoie
 des données agrégées anonymes sur l'utilisation et les plantages au développeur.
-ArrowTrack utilise cela pour la correction de bugs et l'optimisation des performances. Vous pouvez
+JacArrow utilise cela pour la correction de bugs et l'optimisation des performances. Vous pouvez
 désactiver cela via :
 **Réglages iOS → Confidentialité et sécurité → Analyse et améliorations**.
 
@@ -104,12 +104,12 @@ C'est l'intégralité de votre historique de tir dans un format standard.
 
 **Droit à l'effacement (Art. 17) :**
 - *Supprimer une séance individuelle :* balayez la séance sur l'écran d'accueil → Supprimer
-- *Supprimer toutes les données :* désinstallez ArrowTrack — iOS supprime automatiquement
+- *Supprimer toutes les données :* désinstallez JacArrow — iOS supprime automatiquement
   toute la base de données SQLite et AsyncStorage. Le reçu RevenueCat (si vous
   avez acheté Pro) est conservé par Apple et RevenueCat pour les besoins de remboursement et de
   support.
 
-**Droit à la limitation et d'opposition (Art. 18–21) :** ArrowTrack ne prend
+**Droit à la limitation et d'opposition (Art. 18–21) :** JacArrow ne prend
 aucune décision automatisée à votre sujet. Le moteur Smart Insights analyse uniquement
 vos propres données d'entraînement localement sur votre appareil et présente
 des observations — il ne prend aucune décision en votre nom.

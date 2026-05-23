@@ -1,4 +1,4 @@
-# ArrowTrack
+# JacArrow
 
 **iOS app for archery. From your first arrow to your hundredth tournament — built for everyone who shoots.**
 

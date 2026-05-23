@@ -1,4 +1,4 @@
-# Tietosuojakäytäntö — ArrowTrack
+# Tietosuojakäytäntö — JacArrow
 
 **Viimeksi päivitetty:** 2026-05-20
 **Rekisterinpitäjä:** Morten Jacobsen, Norja
@@ -8,7 +8,7 @@
 
 ## Lyhyt versio
 
-ArrowTrack tallentaa **kaikki tietosi paikallisesti laitteellesi**. Meillä ei ole
+JacArrow tallentaa **kaikki tietosi paikallisesti laitteellesi**. Meillä ei ole
 palvelimia, jotka vastaanottaisivat ammuntojasi, harjoituksiasi tai tavoitteitasi. Kun
 poistat sovelluksen, kaikki tiedot katoavat.
 
@@ -28,10 +28,10 @@ Sinulla on täydet GDPR-oikeudet pääsyyn, poistoon ja tietojen siirrettävyyte
 - **Sovellushistoria:** coach-mark-tila (mitä vinkkejä olet nähnyt), tutoriaali-suoritettu-liput
 
 Kaikki nämä tiedot tallennetaan SQLite-tietokantaan ja AsyncStorageen iPhonellesi.
-Sen enempää ArrowTrackilla kuin millään kolmannella osapuolella ei ole pääsyä näihin tietoihin.
+Sen enempää JacArrowilla kuin millään kolmannella osapuolella ei ole pääsyä näihin tietoihin.
 
 ### iCloud (vain kun iCloud Drive on käytössä)
-ArrowTrack aikoo käyttää iCloud Key-Value Storagea yhteen tarkkaan tarkoitukseen:
+JacArrow aikoo käyttää iCloud Key-Value Storagea yhteen tarkkaan tarkoitukseen:
 muistamaan, oletko aiemmin aloittanut kokeilujakson. Tämä synkronoituu
 iCloud-tilisi kautta estääkseen sen, että poistaminen + uudelleenasennus
 antaisi uuden ilmaisen kokeilujakson.
@@ -41,7 +41,7 @@ antaisi uuden ilmaisen kokeilujakson.
 - Tämä ominaisuus aktivoituu, kun lanseeraamme Pro-mallin (Vaihe 4b)
 
 Jos olet poistanut iCloud Driven käytöstä tai poistanut iCloud Driven käytöstä erityisesti
-ArrowTrackilta, iCloudia ei käytetä.
+JacArrowilta, iCloudia ei käytetä.
 
 ---
 
@@ -54,13 +54,13 @@ osoitteita tai muita maksutietoja. Applen
 ostoprosessia.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack lähettää paikallisia ilmoituksia (PE saavutettu, kokeilujakson päättyminen,
+JacArrow lähettää paikallisia ilmoituksia (PE saavutettu, kokeilujakson päättyminen,
 tavoitemuistutukset). Niiden toimittamiseksi iOS rekisteröi anonyymin laitetunnuksen
 Applelle. Meillä ei ole palvelimia, jotka lähettäisivät push-viestejä — kaikki ilmoitukset
 luodaan paikallisesti laitteellasi sovelluksen tilan perusteella.
 
 ### RevenueCat (vain Pro-oston jälkeen)
-Kun ostat ArrowTrack Pron, RevenueCat tallentaa kuittisi ja
+Kun ostat JacArrow Pron, RevenueCat tallentaa kuittisi ja
 anonyymin `appUserId`:n (laitteellasi luotu UUID). Tämä on tarpeen
 sovelluksen ostosi varmistamiseen myöhemmässä käytössä ja «Palauta
 ostot» -toiminnossa. RevenueCatin
@@ -70,7 +70,7 @@ nimeäsi, sähköpostiosoitettasi tai muita henkilötietoja.
 ### Apple Analytics / kaatumisraportit
 Jos olet ottanut käyttöön «Jaa sovelluksen analyysit» iOS-asetuksissa, Apple lähettää
 anonyymejä koostettuja tietoja käytöstä ja kaatumisista kehittäjälle.
-ArrowTrack käyttää tätä virheenkorjaukseen ja suorituskyvyn optimointiin. Voit
+JacArrow käyttää tätä virheenkorjaukseen ja suorituskyvyn optimointiin. Voit
 poistaa tämän käytöstä:
 **iOS-asetukset → Tietosuoja ja turvallisuus → Analytiikka ja parannukset**.
 
@@ -104,11 +104,11 @@ Tämä on täydellinen ammuntahistoriasi standardimuodossa.
 
 **Oikeus tietojen poistamiseen (Art. 17):**
 - *Poista yksittäinen harjoitus:* pyyhkäise harjoitusta aloitusnäytössä → Poista
-- *Poista kaikki tiedot:* poista ArrowTrack — iOS poistaa automaattisesti koko
+- *Poista kaikki tiedot:* poista JacArrow — iOS poistaa automaattisesti koko
   SQLite-tietokannan ja AsyncStoragen. RevenueCat-kuitti (jos olet
   ostanut Pron) säilyy Applella ja RevenueCatilla palautus- ja tukitarpeisiin.
 
-**Oikeus käsittelyn rajoittamiseen ja vastustamiseen (Art. 18–21):** ArrowTrack ei tee
+**Oikeus käsittelyn rajoittamiseen ja vastustamiseen (Art. 18–21):** JacArrow ei tee
 mitään automatisoituja päätöksiä sinusta. Smart Insights -moottori analysoi vain
 omia harjoitustietojasi paikallisesti laitteellasi ja esittää
 havaintoja — se ei tee päätöksiä puolestasi.

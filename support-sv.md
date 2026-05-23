@@ -1,4 +1,4 @@
-# Support — ArrowTrack
+# Support — JacArrow
 
 **Senast uppdaterad:** 2026-05-20
 **Version som omfattas:** v1.0+
@@ -10,7 +10,7 @@
 
 ### Hur registrerar jag en serie?
 
-1. Öppna ArrowTrack → tryck **Nytt pass** på Hem-fliken
+1. Öppna JacArrow → tryck **Nytt pass** på Hem-fliken
 2. Välj bana, tavla och omgångsformat → tryck **Starta pass**
 3. **Tryck på tavlan** för att placera varje pil — använd pinch-zoom och precisionsluppen för noggrannhet
 4. Tryck **Spara serie** när alla pilar är placerade
@@ -18,7 +18,7 @@
 
 ### Vad är skillnaden mellan X och 10?
 
-X-ringen är den innersta ringen och ger 10 poäng — samma som 10-ringen. ArrowTrack spårar X separat eftersom X används som avgörande vid lika resultat i tävlingar. Tryck «X»-knappen när en pil träffar X-ringen i score-pad-läge.
+X-ringen är den innersta ringen och ger 10 poäng — samma som 10-ringen. JacArrow spårar X separat eftersom X används som avgörande vid lika resultat i tävlingar. Tryck «X»-knappen när en pil träffar X-ringen i score-pad-läge.
 
 ### Hur korrigerar jag en felplacerad pil?
 
@@ -43,9 +43,9 @@ I score-pad-läge: tryck på pilbadgen i score-pad och välj ett nytt värde.
 
 ### Hur återställer jag köp på ny iPhone?
 
-1. Ladda ner ArrowTrack på den nya iPhone (gratisversionen)
+1. Ladda ner JacArrow på den nya iPhone (gratisversionen)
 2. Logga in med samma Apple-ID du använde när du köpte Pro
-3. Öppna ArrowTrack → **Inställningar → Licens → Återställ köp**
+3. Öppna JacArrow → **Inställningar → Licens → Återställ köp**
 4. Pro återaktiveras automatiskt
 
 Om du har bytt Apple-ID: kontakta galge.vender.0a@icloud.com så hjälper vi dig.
@@ -58,7 +58,7 @@ JSON-filen innehåller alla pass, omgångar, pilar, mål, båguppsättningar och
 
 ### Hur tar jag bort all min data?
 
-Avinstallera ArrowTrack → iOS tar automatiskt bort hela SQLite-databasen och alla inställningar. Inga restdata finns kvar på enheten.
+Avinstallera JacArrow → iOS tar automatiskt bort hela SQLite-databasen och alla inställningar. Inga restdata finns kvar på enheten.
 
 Om du har köpt Pro: kvittot finns kvar hos Apple (för återbetalnings- och supportändamål). Avinstallation påverkar inte framtida ominstallationer — Pro återaktiveras automatiskt via Återställ köp.
 
@@ -92,14 +92,14 @@ Alla format följer officiell WA Book 3-efterlevnad: linjeregeln, separat X-spå
 ### Appen kraschar vid start
 
 1. Stäng av iPhone och starta om
-2. Om problemet kvarstår: avinstallera och installera om ArrowTrack (köpdata försvinner INTE — kvittot finns kvar hos Apple)
-3. Skicka kraschloggen till galge.vender.0a@icloud.com: **Inställningar → Integritet och säkerhet → Analys och förbättringar → Analysdata** → hitta ArrowTrack-loggen → dela med oss
+2. Om problemet kvarstår: avinstallera och installera om JacArrow (köpdata försvinner INTE — kvittot finns kvar hos Apple)
+3. Skicka kraschloggen till galge.vender.0a@icloud.com: **Inställningar → Integritet och säkerhet → Analys och förbättringar → Analysdata** → hitta JacArrow-loggen → dela med oss
 
 Om du har valt att dela analys med utvecklaren via iOS skickas kraschloggar automatiskt till oss.
 
 ### Poängdata försvann efter uppdatering
 
-ArrowTrack lagrar allt lokalt i SQLite. Uppdateringar migrerar databasen endast framåt — gamla data konverteras till nytt format, raderas aldrig.
+JacArrow lagrar allt lokalt i SQLite. Uppdateringar migrerar databasen endast framåt — gamla data konverteras till nytt format, raderas aldrig.
 
 Om du upplever dataförlust:
 1. Verifiera att du är inloggad med samma Apple-ID
@@ -112,7 +112,7 @@ Vi har en strikt regel om att publicerade migrationer är oföränderliga — da
 
 1. Prova med två fingrar, inte ett
 2. Kontrollera att du inte har «Minska rörelse» påslaget i **iOS-inställningar → Tillgänglighet → Rörelse** — det kan begränsa gester i vissa appar
-3. Stäng appen helt (svep upp från botten, svep ArrowTrack uppåt) och öppna igen
+3. Stäng appen helt (svep upp från botten, svep JacArrow uppåt) och öppna igen
 
 ### Konstellationsvyn vibrerar vid dragning
 
@@ -138,7 +138,7 @@ Skicka ett mejl till galge.vender.0a@icloud.com med:
 - **Vad du förväntade dig skulle hända**
 - **Steg-för-steg** för att reproducera
 - **iOS-version** och **iPhone-modell** (Inställningar → Allmänt → Om)
-- **ArrowTrack-version** (Inställningar → Om appen)
+- **JacArrow-version** (Inställningar → Om appen)
 - Skärmdump om relevant
 
 ### Allmänt
@@ -148,7 +148,7 @@ Vi svarar på alla förfrågningar inom 3 arbetsdagar. Akuta problem (krascher s
 
 ## GDPR och integritet
 
-För fullständig integritetspolicy: [Integritet](https://mjacobsen71.github.io/arrowtrack-legal/privacy-sv)
+För fullständig integritetspolicy: [Integritet](https://mjacobsen71.github.io/jacarrow-legal/privacy-sv)
 
 För att exportera dina data, ta bort ett pass eller utöva andra GDPR-rättigheter: se Integritetspolicyn.
 
@@ -156,13 +156,13 @@ Integritetsklagomål: kontakta oss **först** på galge.vender.0a@icloud.com. Om
 
 ---
 
-## Om ArrowTrack
+## Om JacArrow
 
 **Utvecklare:** Morten Jacobsen, Norge
-**Hemsida:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Integritetspolicy:** [Integritet](https://mjacobsen71.github.io/arrowtrack-legal/privacy-sv)
+**Hemsida:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Integritetspolicy:** [Integritet](https://mjacobsen71.github.io/jacarrow-legal/privacy-sv)
 **Licenser (öppen källkod):** se Inställningar → Om appen → Licenser i appen
 
-ArrowTrack är ett solo-utvecklarprojekt byggt för bågskyttar på alla nivåer — från din första pil till din hundrade tävling. WA Book 3-kompatibel poängräkning finns från dag ett, redo när du vill. Byggt med React Native + Expo + TypeScript + SQLite. Ingen backend, inget moln, ingen spårning.
+JacArrow är ett solo-utvecklarprojekt byggt för bågskyttar på alla nivåer — från din första pil till din hundrade tävling. WA Book 3-kompatibel poängräkning finns från dag ett, redo när du vill. Byggt med React Native + Expo + TypeScript + SQLite. Ingen backend, inget moln, ingen spårning.
 
 Tack för att du använder appen. 🏹

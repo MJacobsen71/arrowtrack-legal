@@ -1,4 +1,4 @@
-# Supporto — ArrowTrack
+# Supporto — JacArrow
 
 **Ultimo aggiornamento:** 2026-05-20
 **Versione coperta:** v1.0+
@@ -10,7 +10,7 @@
 
 ### Come registro una volée?
 
-1. Apri ArrowTrack → tocca **Nuova sessione** nella scheda Home
+1. Apri JacArrow → tocca **Nuova sessione** nella scheda Home
 2. Scegli luogo, visuale e formato del round → tocca **Avvia sessione**
 3. **Tocca sulla visuale** per posizionare ogni freccia — usa il pinch-zoom e la lente di precisione per maggiore accuratezza
 4. Tocca **Salva volée** quando tutte le frecce sono posizionate
@@ -18,7 +18,7 @@
 
 ### Qual è la differenza tra X e 10?
 
-L'X-ring è il cerchio più interno e vale 10 punti — uguale al 10. ArrowTrack traccia l'X separatamente perché viene usato come spareggio nelle competizioni. Tocca il pulsante «X» quando una freccia colpisce l'X-ring in modalità score-pad.
+L'X-ring è il cerchio più interno e vale 10 punti — uguale al 10. JacArrow traccia l'X separatamente perché viene usato come spareggio nelle competizioni. Tocca il pulsante «X» quando una freccia colpisce l'X-ring in modalità score-pad.
 
 ### Come correggo una freccia mal posizionata?
 
@@ -43,9 +43,9 @@ L'icona 📋 indica sessioni inserite manualmente con lo score-pad, non registra
 
 ### Come ripristino gli acquisti su un nuovo iPhone?
 
-1. Scarica ArrowTrack sul nuovo iPhone (versione gratuita)
+1. Scarica JacArrow sul nuovo iPhone (versione gratuita)
 2. Accedi con lo stesso ID Apple usato per acquistare Pro
-3. Apri ArrowTrack → **Impostazioni → Licenza → Ripristina acquisti**
+3. Apri JacArrow → **Impostazioni → Licenza → Ripristina acquisti**
 4. Pro si riattiva automaticamente
 
 Se hai cambiato ID Apple: contatta galge.vender.0a@icloud.com e ti aiuteremo.
@@ -58,7 +58,7 @@ Il JSON contiene tutte le sessioni, i round, le frecce, gli obiettivi, le config
 
 ### Come elimino tutti i miei dati?
 
-Disinstalla ArrowTrack → iOS rimuove automaticamente l'intero database SQLite e tutte le impostazioni. Nessun dato residuo rimane sul dispositivo.
+Disinstalla JacArrow → iOS rimuove automaticamente l'intero database SQLite e tutte le impostazioni. Nessun dato residuo rimane sul dispositivo.
 
 Se hai acquistato Pro: la ricevuta rimane presso Apple (per scopi di rimborso e supporto). La disinstallazione non influisce sulle reinstallazioni future — Pro si riattiva automaticamente tramite Ripristina acquisti.
 
@@ -92,14 +92,14 @@ Tutti i formati seguono la conformità ufficiale WA Book 3: regola della linea, 
 ### L'app si blocca all'avvio
 
 1. Spegni e riaccendi l'iPhone
-2. Se persiste: disinstalla e reinstalla ArrowTrack (i dati di acquisto NON vengono persi — la ricevuta rimane presso Apple)
-3. Invia il log del crash a galge.vender.0a@icloud.com: **Impostazioni → Privacy e sicurezza → Analisi e miglioramenti → Dati di analisi** → trova il log di ArrowTrack → condividilo con noi
+2. Se persiste: disinstalla e reinstalla JacArrow (i dati di acquisto NON vengono persi — la ricevuta rimane presso Apple)
+3. Invia il log del crash a galge.vender.0a@icloud.com: **Impostazioni → Privacy e sicurezza → Analisi e miglioramenti → Dati di analisi** → trova il log di JacArrow → condividilo con noi
 
 Se hai scelto di condividere l'analisi con lo sviluppatore tramite iOS, i log dei crash ci vengono inviati automaticamente.
 
 ### I dati di punteggio sono spariti dopo un aggiornamento
 
-ArrowTrack memorizza tutto localmente in SQLite. Gli aggiornamenti migrano il database solo in avanti — i vecchi dati vengono convertiti nel nuovo formato, mai eliminati.
+JacArrow memorizza tutto localmente in SQLite. Gli aggiornamenti migrano il database solo in avanti — i vecchi dati vengono convertiti nel nuovo formato, mai eliminati.
 
 Se riscontri perdita di dati:
 1. Verifica di essere connesso con lo stesso ID Apple
@@ -112,7 +112,7 @@ Abbiamo una regola ferrea che le migrazioni pubblicate sono immutabili — la pe
 
 1. Prova con due dita, non una
 2. Verifica che «Riduci movimento» non sia attivato in **Impostazioni iOS → Accessibilità → Movimento** — può limitare le gesture in alcune app
-3. Chiudi l'app completamente (scorri verso l'alto dal basso, scorri ArrowTrack verso l'alto) e riapri
+3. Chiudi l'app completamente (scorri verso l'alto dal basso, scorri JacArrow verso l'alto) e riapri
 
 ### La costellazione vibra durante il trascinamento
 
@@ -138,7 +138,7 @@ Invia un'email a galge.vender.0a@icloud.com con:
 - **Cosa ti aspettavi che succedesse**
 - **Passo per passo** per riprodurlo
 - **Versione iOS** e **modello di iPhone** (Impostazioni → Generali → Info)
-- **Versione di ArrowTrack** (Impostazioni → Sull'app)
+- **Versione di JacArrow** (Impostazioni → Sull'app)
 - Screenshot se rilevante
 
 ### Generale
@@ -148,7 +148,7 @@ Rispondiamo a tutte le richieste entro 3 giorni lavorativi. I problemi urgenti (
 
 ## GDPR e privacy
 
-Per l'informativa sulla privacy completa: [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-it)
+Per l'informativa sulla privacy completa: [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-it)
 
 Per esportare i tuoi dati, eliminare una sessione o esercitare altri diritti GDPR: vedi l'Informativa sulla privacy.
 
@@ -156,13 +156,13 @@ Reclami sulla privacy: contattaci **prima** a galge.vender.0a@icloud.com. Se non
 
 ---
 
-## Su ArrowTrack
+## Su JacArrow
 
 **Sviluppatore:** Morten Jacobsen, Norvegia
-**Sito web:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Informativa sulla privacy:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-it)
+**Sito web:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Informativa sulla privacy:** [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-it)
 **Licenze (open source):** vedi Impostazioni → Sull'app → Licenze nell'app
 
-ArrowTrack è un progetto di un singolo sviluppatore, costruito per arcieri di ogni livello — dalla prima freccia alla centesima competizione. Il punteggio conforme al WA Book 3 è lì dal primo giorno, pronto quando lo vuoi. Costruito con React Native + Expo + TypeScript + SQLite. Niente backend, niente cloud, niente tracciamento.
+JacArrow è un progetto di un singolo sviluppatore, costruito per arcieri di ogni livello — dalla prima freccia alla centesima competizione. Il punteggio conforme al WA Book 3 è lì dal primo giorno, pronto quando lo vuoi. Costruito con React Native + Expo + TypeScript + SQLite. Niente backend, niente cloud, niente tracciamento.
 
 Grazie per aver usato l'app. 🏹

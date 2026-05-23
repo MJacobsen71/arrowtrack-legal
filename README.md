@@ -1,7 +1,7 @@
-# arrowtrack-legal
+# jacarrow-legal
 
-Public legal documents for the **ArrowTrack** mobile app. Published via
-GitHub Pages at <https://mjacobsen71.github.io/arrowtrack-legal/>.
+Public legal documents for the **JacArrow** mobile app. Published via
+GitHub Pages at <https://mjacobsen71.github.io/jacarrow-legal/>.
 
 ## Contents
 
@@ -11,7 +11,7 @@ GitHub Pages at <https://mjacobsen71.github.io/arrowtrack-legal/>.
 
 ## Why a separate repo?
 
-The main ArrowTrack source repository is private. GitHub Pages on the free
+The main JacArrow source repository is private. GitHub Pages on the free
 tier requires a public repo. Privacy Policy must be publicly reachable for
 Apple App Review and end users. Hosting only the legal documents here keeps
 the source code private while satisfying both requirements.

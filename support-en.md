@@ -1,4 +1,4 @@
-# Support — ArrowTrack
+# Support — JacArrow
 
 **Last updated:** 2026-05-20
 **Version covered:** v1.0+
@@ -10,7 +10,7 @@
 
 ### How do I record an end?
 
-1. Open ArrowTrack → tap **New session** on the Home tab
+1. Open JacArrow → tap **New session** on the Home tab
 2. Choose location, target face, and round format → tap **Start session**
 3. **Tap on the target face** to place each arrow — use pinch-zoom and the precision loupe for accuracy
 4. Tap **Save end** when all arrows are placed
@@ -18,7 +18,7 @@
 
 ### What's the difference between X and 10?
 
-The X-ring is the innermost ring and scores 10 points — same as the 10-ring. ArrowTrack tracks X separately because X is used as the tiebreaker in competitions. Tap the «X» button when an arrow hits the X-ring in score-pad mode.
+The X-ring is the innermost ring and scores 10 points — same as the 10-ring. JacArrow tracks X separately because X is used as the tiebreaker in competitions. Tap the «X» button when an arrow hits the X-ring in score-pad mode.
 
 ### How do I correct a misplaced arrow?
 
@@ -43,9 +43,9 @@ The 📋 icon marks sessions that were entered manually using the score pad, not
 
 ### How do I restore purchases on a new iPhone?
 
-1. Download ArrowTrack on the new iPhone (free version)
+1. Download JacArrow on the new iPhone (free version)
 2. Sign in with the same Apple ID you used to buy Pro
-3. Open ArrowTrack → **Settings → License → Restore Purchases**
+3. Open JacArrow → **Settings → License → Restore Purchases**
 4. Pro reactivates automatically
 
 If you've changed Apple ID: contact galge.vender.0a@icloud.com and we'll help you.
@@ -58,7 +58,7 @@ The JSON contains all sessions, rounds, arrows, goals, bow setups, and settings 
 
 ### How do I delete all my data?
 
-Uninstall ArrowTrack → iOS automatically removes the entire SQLite database and all settings. No residual data remains on the device.
+Uninstall JacArrow → iOS automatically removes the entire SQLite database and all settings. No residual data remains on the device.
 
 If you've bought Pro: the receipt remains with Apple (for refund and support purposes). Uninstall doesn't affect future re-installs — Pro reactivates automatically via Restore Purchases.
 
@@ -92,14 +92,14 @@ All formats include official WA Book 3 compliance: line-breaking rule, separate 
 ### The app crashes on launch
 
 1. Turn iPhone off and on again
-2. If still failing: uninstall and reinstall ArrowTrack (purchase data is NOT lost — receipt remains with Apple)
-3. Send crash log to galge.vender.0a@icloud.com: **Settings → Privacy & Security → Analytics & Improvements → Analytics Data** → find the ArrowTrack log → share with us
+2. If still failing: uninstall and reinstall JacArrow (purchase data is NOT lost — receipt remains with Apple)
+3. Send crash log to galge.vender.0a@icloud.com: **Settings → Privacy & Security → Analytics & Improvements → Analytics Data** → find the JacArrow log → share with us
 
 If you've chosen to share analytics with the developer via iOS, crash logs are automatically sent to us.
 
 ### Score data disappeared after update
 
-ArrowTrack stores everything locally in SQLite. Updates migrate the database forward-only — old data is converted to the new format, never deleted.
+JacArrow stores everything locally in SQLite. Updates migrate the database forward-only — old data is converted to the new format, never deleted.
 
 If you experience data loss:
 1. Verify you're signed in with the same Apple ID
@@ -112,7 +112,7 @@ We have a strict rule that published migrations are immutable — data loss from
 
 1. Try with two fingers, not one
 2. Check that you don't have «Reduce Motion» turned on in **iOS Settings → Accessibility → Motion** — it can limit gestures in some apps
-3. Force-close the app (swipe up from the bottom, swipe ArrowTrack up) and reopen
+3. Force-close the app (swipe up from the bottom, swipe JacArrow up) and reopen
 
 ### The constellation vibrates when dragging
 
@@ -138,7 +138,7 @@ Send an email to galge.vender.0a@icloud.com with:
 - **What you expected to happen**
 - **Step-by-step** to reproduce
 - **iOS version** and **iPhone model** (Settings → General → About)
-- **ArrowTrack version** (Settings → About the app)
+- **JacArrow version** (Settings → About the app)
 - Screenshot if relevant
 
 ### General
@@ -148,7 +148,7 @@ We respond to all inquiries within 3 business days. Urgent issues (crashes preve
 
 ## GDPR and privacy
 
-For the full privacy policy: [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-en)
+For the full privacy policy: [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-en)
 
 To export your data, delete a session, or exercise other GDPR rights: see the Privacy Policy.
 
@@ -156,13 +156,13 @@ Privacy complaints: contact us at galge.vender.0a@icloud.com **first**. If we ca
 
 ---
 
-## About ArrowTrack
+## About JacArrow
 
 **Developer:** Morten Jacobsen, Norway
-**Homepage:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Privacy Policy:** [Privacy](https://mjacobsen71.github.io/arrowtrack-legal/privacy-en)
+**Homepage:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Privacy Policy:** [Privacy](https://mjacobsen71.github.io/jacarrow-legal/privacy-en)
 **Licenses (open source):** See Settings → About the app → Licenses in the app
 
-ArrowTrack is a solo-developer project built for archers at every level — from your first arrow to your hundredth tournament. WA Book 3 compliant scoring is there from day one, ready when you want it. Built with React Native + Expo + TypeScript + SQLite. No backend, no cloud, no tracking.
+JacArrow is a solo-developer project built for archers at every level — from your first arrow to your hundredth tournament. WA Book 3 compliant scoring is there from day one, ready when you want it. Built with React Native + Expo + TypeScript + SQLite. No backend, no cloud, no tracking.
 
 Thanks for using the app. 🏹

@@ -1,4 +1,4 @@
-# Informativa sulla privacy — ArrowTrack
+# Informativa sulla privacy — JacArrow
 
 **Ultimo aggiornamento:** 2026-05-20
 **Titolare del trattamento:** Morten Jacobsen, Norvegia
@@ -8,7 +8,7 @@
 
 ## Versione breve
 
-ArrowTrack memorizza **tutti i tuoi dati localmente sul tuo dispositivo**. Non abbiamo alcun
+JacArrow memorizza **tutti i tuoi dati localmente sul tuo dispositivo**. Non abbiamo alcun
 server che riceva i tuoi tiri, le tue sessioni o i tuoi obiettivi. Quando disinstalli
 l'app, tutti i dati spariscono.
 
@@ -28,10 +28,10 @@ Hai i pieni diritti GDPR di accesso, cancellazione e portabilità dei dati.
 - **Cronologia dell'app:** stato dei coach-mark (suggerimenti già visualizzati), flag di tutorial completati
 
 Tutti questi dati sono memorizzati in un database SQLite e in AsyncStorage sul tuo iPhone.
-Né ArrowTrack né alcuna terza parte ha accesso a questi dati.
+Né JacArrow né alcuna terza parte ha accesso a questi dati.
 
 ### iCloud (solo se iCloud Drive è abilitato)
-ArrowTrack pianifica di utilizzare iCloud Key-Value Storage per uno scopo specifico:
+JacArrow pianifica di utilizzare iCloud Key-Value Storage per uno scopo specifico:
 ricordare se hai già iniziato il periodo di prova. Questo si sincronizza
 tramite il tuo account iCloud per impedire che disinstallazione + reinstallazione
 concedano un nuovo periodo di prova gratuito.
@@ -41,7 +41,7 @@ concedano un nuovo periodo di prova gratuito.
 - Questa funzione si attiverà quando lanceremo il modello Pro (Fase 4b)
 
 Se hai disabilitato iCloud Drive, o disabilitato iCloud Drive specificamente
-per ArrowTrack, iCloud non viene utilizzato.
+per JacArrow, iCloud non viene utilizzato.
 
 ---
 
@@ -54,13 +54,13 @@ carta, indirizzi o altri dettagli di pagamento. La
 processo di acquisto.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack invia notifiche locali (RP raggiunto, scadenza del periodo di prova,
+JacArrow invia notifiche locali (RP raggiunto, scadenza del periodo di prova,
 promemoria degli obiettivi). Per recapitarle, iOS registra un token di dispositivo anonimo
 con Apple. Non abbiamo alcun server che invii messaggi push — tutte le notifiche
 sono generate localmente sul tuo dispositivo in base allo stato dell'app.
 
 ### RevenueCat (solo dopo l'acquisto di Pro)
-Quando acquisti ArrowTrack Pro, RevenueCat registra la tua ricevuta e un
+Quando acquisti JacArrow Pro, RevenueCat registra la tua ricevuta e un
 `appUserId` anonimo (UUID generato sul tuo dispositivo). Ciò è necessario
 affinché l'app possa verificare il tuo acquisto in utilizzi successivi e durante il
 «Ripristina acquisti». La
@@ -70,7 +70,7 @@ il tuo nome, la tua email o altri dati personali.
 ### Apple Analytics / Report di crash
 Se hai abilitato «Condividi analisi app» nelle Impostazioni iOS, Apple invia
 dati aggregati anonimi su utilizzo e crash allo sviluppatore.
-ArrowTrack utilizza questi dati per la correzione dei bug e l'ottimizzazione delle prestazioni. Puoi
+JacArrow utilizza questi dati per la correzione dei bug e l'ottimizzazione delle prestazioni. Puoi
 disabilitarlo tramite:
 **Impostazioni iOS → Privacy e sicurezza → Analisi e miglioramenti**.
 
@@ -104,11 +104,11 @@ Questa è la tua cronologia di tiro completa in un formato standard.
 
 **Diritto alla cancellazione (Art. 17):**
 - *Eliminare una singola sessione:* fai scorrere la sessione sulla schermata Home → Elimina
-- *Eliminare tutti i dati:* disinstalla ArrowTrack — iOS elimina automaticamente l'intero
+- *Eliminare tutti i dati:* disinstalla JacArrow — iOS elimina automaticamente l'intero
   database SQLite e AsyncStorage. La ricevuta RevenueCat (se hai
   acquistato Pro) viene conservata da Apple e RevenueCat per scopi di rimborso e supporto.
 
-**Diritto di limitazione e opposizione (Art. 18–21):** ArrowTrack non prende
+**Diritto di limitazione e opposizione (Art. 18–21):** JacArrow non prende
 alcuna decisione automatizzata su di te. Il motore Smart Insights analizza solo
 i tuoi dati di allenamento localmente sul tuo dispositivo e presenta
 osservazioni — non prende decisioni per tuo conto.

@@ -1,4 +1,4 @@
-# Tuki — ArrowTrack
+# Tuki — JacArrow
 
 **Viimeksi päivitetty:** 2026-05-20
 **Kattaa version:** v1.0+
@@ -10,7 +10,7 @@
 
 ### Miten rekisteröin sarjan?
 
-1. Avaa ArrowTrack → napauta **Uusi harjoitus** Koti-välilehdellä
+1. Avaa JacArrow → napauta **Uusi harjoitus** Koti-välilehdellä
 2. Valitse paikka, taulu ja kierrosmuoto → napauta **Aloita harjoitus**
 3. **Napauta taulua** sijoittaaksesi jokaisen nuolen — käytä pinch-zoomia ja tarkkuussuurennuslasia tarkkuuden varmistamiseksi
 4. Napauta **Tallenna sarja**, kun kaikki nuolet on sijoitettu
@@ -18,7 +18,7 @@
 
 ### Mitä eroa on X:llä ja 10:llä?
 
-X-rengas on sisin rengas ja sen arvo on 10 pistettä — sama kuin 10-renkaan. ArrowTrack seuraa X:ää erikseen, koska X:ää käytetään tasapelin ratkaisuun kilpailuissa. Napauta «X»-painiketta, kun nuoli osuu X-renkaaseen score-pad-tilassa.
+X-rengas on sisin rengas ja sen arvo on 10 pistettä — sama kuin 10-renkaan. JacArrow seuraa X:ää erikseen, koska X:ää käytetään tasapelin ratkaisuun kilpailuissa. Napauta «X»-painiketta, kun nuoli osuu X-renkaaseen score-pad-tilassa.
 
 ### Miten korjaan väärin sijoitetun nuolen?
 
@@ -43,9 +43,9 @@ Score-pad-tilassa: napauta score-padin nuolimerkkiä ja valitse uusi arvo.
 
 ### Miten palautan ostot uudella iPhonella?
 
-1. Lataa ArrowTrack uudelle iPhonelle (ilmaisversio)
+1. Lataa JacArrow uudelle iPhonelle (ilmaisversio)
 2. Kirjaudu sisään samalla Apple-ID:llä, jolla ostit Pron
-3. Avaa ArrowTrack → **Asetukset → Lisenssi → Palauta ostot**
+3. Avaa JacArrow → **Asetukset → Lisenssi → Palauta ostot**
 4. Pro aktivoituu uudelleen automaattisesti
 
 Jos olet vaihtanut Apple-ID:tä: ota yhteyttä galge.vender.0a@icloud.com, niin autamme.
@@ -58,7 +58,7 @@ JSON sisältää kaikki harjoitukset, kierrokset, nuolet, tavoitteet, jousiasete
 
 ### Miten poistan kaikki tietoni?
 
-Poista ArrowTrack → iOS poistaa automaattisesti koko SQLite-tietokannan ja kaikki asetukset. Laitteelle ei jää jäännöstietoja.
+Poista JacArrow → iOS poistaa automaattisesti koko SQLite-tietokannan ja kaikki asetukset. Laitteelle ei jää jäännöstietoja.
 
 Jos olet ostanut Pron: kuitti säilyy Applella (palautus- ja tukitarpeisiin). Poisto ei vaikuta tuleviin uudelleenasennuksiin — Pro aktivoituu automaattisesti Palauta ostot -toiminnolla.
 
@@ -92,14 +92,14 @@ Kaikki muodot sisältävät virallisen WA Book 3 -yhteensopivuuden: viivasäänt
 ### Sovellus kaatuu käynnistyksessä
 
 1. Sammuta iPhone ja käynnistä uudelleen
-2. Jos ongelma jatkuu: poista ja asenna ArrowTrack uudelleen (ostotietoja EI menetetä — kuitti säilyy Applella)
-3. Lähetä kaatumisloki osoitteeseen galge.vender.0a@icloud.com: **Asetukset → Tietosuoja ja turvallisuus → Analytiikka ja parannukset → Analyysitiedot** → etsi ArrowTrack-loki → jaa kanssamme
+2. Jos ongelma jatkuu: poista ja asenna JacArrow uudelleen (ostotietoja EI menetetä — kuitti säilyy Applella)
+3. Lähetä kaatumisloki osoitteeseen galge.vender.0a@icloud.com: **Asetukset → Tietosuoja ja turvallisuus → Analytiikka ja parannukset → Analyysitiedot** → etsi JacArrow-loki → jaa kanssamme
 
 Jos olet valinnut jakaa analytiikan kehittäjän kanssa iOS:n kautta, kaatumislokit lähetetään meille automaattisesti.
 
 ### Pistetiedot katosivat päivityksen jälkeen
 
-ArrowTrack tallentaa kaiken paikallisesti SQLiteen. Päivitykset siirtävät tietokantaa vain eteenpäin — vanhat tiedot muunnetaan uuteen muotoon, niitä ei koskaan poisteta.
+JacArrow tallentaa kaiken paikallisesti SQLiteen. Päivitykset siirtävät tietokantaa vain eteenpäin — vanhat tiedot muunnetaan uuteen muotoon, niitä ei koskaan poisteta.
 
 Jos koet tietojen katoamista:
 1. Varmista, että olet kirjautunut samalla Apple-ID:llä
@@ -112,7 +112,7 @@ Meillä on tiukka sääntö, että julkaistut migraatiot ovat muuttumattomia —
 
 1. Kokeile kahdella sormella, älä yhdellä
 2. Tarkista, ettei sinulla ole «Vähennä liikettä» päällä **iOS-asetukset → Käytettävyys → Liike** — se voi rajoittaa eleitä joissakin sovelluksissa
-3. Sulje sovellus kokonaan (pyyhkäise ylöspäin alhaalta, pyyhkäise ArrowTrack ylöspäin) ja avaa uudelleen
+3. Sulje sovellus kokonaan (pyyhkäise ylöspäin alhaalta, pyyhkäise JacArrow ylöspäin) ja avaa uudelleen
 
 ### Konstellaationäkymä tärisee vetäessä
 
@@ -138,7 +138,7 @@ Lähetä sähköposti osoitteeseen galge.vender.0a@icloud.com:
 - **Mitä odotit tapahtuvan**
 - **Vaihe vaiheelta** toistettavaksi
 - **iOS-versio** ja **iPhone-malli** (Asetukset → Yleiset → Tietoja)
-- **ArrowTrackin versio** (Asetukset → Tietoja sovelluksesta)
+- **JacArrowin versio** (Asetukset → Tietoja sovelluksesta)
 - Kuvakaappaus tarvittaessa
 
 ### Yleistä
@@ -148,7 +148,7 @@ Vastaamme kaikkiin yhteydenottoihin 3 arkipäivän kuluessa. Kiireelliset ongelm
 
 ## GDPR ja tietosuoja
 
-Täydellinen tietosuojakäytäntö: [Tietosuoja](https://mjacobsen71.github.io/arrowtrack-legal/privacy-fi)
+Täydellinen tietosuojakäytäntö: [Tietosuoja](https://mjacobsen71.github.io/jacarrow-legal/privacy-fi)
 
 Tietojesi viemiseen, harjoituksen poistamiseen tai muiden GDPR-oikeuksien käyttämiseen: katso Tietosuojakäytäntö.
 
@@ -156,13 +156,13 @@ Tietosuojaa koskevat valitukset: ota yhteyttä meihin **ensin** osoitteessa galg
 
 ---
 
-## Tietoa ArrowTrackista
+## Tietoa JacArrowista
 
 **Kehittäjä:** Morten Jacobsen, Norja
-**Kotisivu:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Tietosuojakäytäntö:** [Tietosuoja](https://mjacobsen71.github.io/arrowtrack-legal/privacy-fi)
+**Kotisivu:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Tietosuojakäytäntö:** [Tietosuoja](https://mjacobsen71.github.io/jacarrow-legal/privacy-fi)
 **Lisenssit (avoin lähdekoodi):** katso Asetukset → Tietoja sovelluksesta → Lisenssit sovelluksessa
 
-ArrowTrack on yhden kehittäjän projekti, joka on rakennettu jousiampujille kaikilla tasoilla — ensimmäisestä nuolesta sadanteen kilpailuun. WA Book 3 -yhteensopiva pisteytys on mukana ensimmäisestä päivästä, valmiina kun haluat sen. Rakennettu React Nativella + Expolla + TypeScriptillä + SQLitella. Ei backendia, ei pilveä, ei seurantaa.
+JacArrow on yhden kehittäjän projekti, joka on rakennettu jousiampujille kaikilla tasoilla — ensimmäisestä nuolesta sadanteen kilpailuun. WA Book 3 -yhteensopiva pisteytys on mukana ensimmäisestä päivästä, valmiina kun haluat sen. Rakennettu React Nativella + Expolla + TypeScriptillä + SQLitella. Ei backendia, ei pilveä, ei seurantaa.
 
 Kiitos, että käytät sovellusta. 🏹

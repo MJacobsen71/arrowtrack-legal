@@ -1,4 +1,4 @@
-# Personvernerklæring — ArrowTrack
+# Personvernerklæring — JacArrow
 
 **Sist oppdatert:** 2026-05-15
 **Behandlingsansvarlig:** Morten Jacobsen, Norge
@@ -8,7 +8,7 @@
 
 ## Kort versjon
 
-ArrowTrack lagrer **all dine data lokalt på enheten din**. Vi har ingen
+JacArrow lagrer **all dine data lokalt på enheten din**. Vi har ingen
 servere som mottar dine skytinger, økter eller målsetting. Når du
 avinstallerer appen forsvinner all data.
 
@@ -28,10 +28,10 @@ Du har full rett til innsyn, sletting og dataportabilitet under GDPR.
 - **Apphistorikk:** coach-mark-status (hvilke tips du har sett), tutorial-fullført-flagg
 
 All denne data er lagret i SQLite-database og AsyncStorage på din iPhone. Hverken
-ArrowTrack eller noen tredjepart har tilgang til denne dataen.
+JacArrow eller noen tredjepart har tilgang til denne dataen.
 
 ### iCloud (kun ved aktivert iCloud Drive)
-ArrowTrack planlegger å bruke iCloud Key-Value Storage til ett spesifikt formål:
+JacArrow planlegger å bruke iCloud Key-Value Storage til ett spesifikt formål:
 huske om du har startet prøveperioden tidligere. Dette synkroniseres via din
 iCloud-konto for å hindre at avinstall + reinstall gir en ny gratis prøveperiode.
 
@@ -41,7 +41,7 @@ iCloud-konto for å hindre at avinstall + reinstall gir en ny gratis prøveperio
 - Funksjonen aktiveres når vi launcher Pro-modellen (Phase 4b)
 
 Hvis du har deaktivert iCloud Drive, eller deaktiverer iCloud Drive for
-ArrowTrack spesifikt, brukes ikke iCloud.
+JacArrow spesifikt, brukes ikke iCloud.
 
 ---
 
@@ -54,13 +54,13 @@ adresser, eller andre betalings-detaljer. Apples
 kjøps-flyten.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack sender lokale varsler (PR-oppnådd, prøveperiode-utløp, påminnelser
+JacArrow sender lokale varsler (PR-oppnådd, prøveperiode-utløp, påminnelser
 om mål). For å levere disse registrerer iOS et anonymt enhets-token med Apple.
 Vi har ingen servere som sender push-meldinger — alle varsler genereres
 lokalt på enheten din basert på app-tilstand.
 
 ### RevenueCat (kun etter Pro-kjøp)
-Når du kjøper ArrowTrack Pro registrerer RevenueCat ditt kvittering og en
+Når du kjøper JacArrow Pro registrerer RevenueCat ditt kvittering og en
 anonym `appUserId` (UUID generert på enheten din). Dette er nødvendig for at
 appen skal kunne verifisere ditt kjøp ved senere bruk og ved «Gjenopprett
 kjøp». RevenueCats [personvernerklæring](https://www.revenuecat.com/privacy)
@@ -68,7 +68,7 @@ gjelder. Vi sender aldri ditt navn, e-post, eller andre personopplysninger.
 
 ### Apple Analytics / Crash Reports
 Hvis du har aktivert «Del app-analyse» i iOS-innstillinger sender Apple
-anonyme aggregat-data om bruk og krasj til utvikleren. ArrowTrack bruker dette
+anonyme aggregat-data om bruk og krasj til utvikleren. JacArrow bruker dette
 til feilretting og ytelses-optimering. Du kan deaktivere dette via:
 **iOS Innstillinger → Personvern og sikkerhet → Analyse og forbedringer**.
 
@@ -102,11 +102,11 @@ osv. Dette er din komplette skytte-historikk i et standard format.
 
 **Sletting (Art. 17):**
 - *Slett enkelt-økt:* sveip økten på hjem-skjermen → Slett
-- *Slett alle data:* avinstaller ArrowTrack — iOS sletter automatisk all
+- *Slett alle data:* avinstaller JacArrow — iOS sletter automatisk all
   SQLite-database og AsyncStorage. RevenueCat-kvittering (hvis du har kjøpt
   Pro) beholdes hos Apple og RevenueCat for refund- og support-formål.
 
-**Begrensning og innsigelse (Art. 18–21):** ArrowTrack utfører ingen
+**Begrensning og innsigelse (Art. 18–21):** JacArrow utfører ingen
 automatiserte beslutninger om deg. Smart innsikt-motoren analyserer kun din
 egen treningsdata lokalt på enheten og presenterer observasjoner — den tar
 ingen beslutninger på dine vegne.

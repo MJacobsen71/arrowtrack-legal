@@ -1,4 +1,4 @@
-# Privacy Policy — ArrowTrack
+# Privacy Policy — JacArrow
 
 **Last updated:** 2026-05-15
 **Data Controller:** Morten Jacobsen, Norway
@@ -8,7 +8,7 @@
 
 ## Short version
 
-ArrowTrack stores **all your data locally on your device**. We have no
+JacArrow stores **all your data locally on your device**. We have no
 servers that receive your shoots, sessions, or goals. When you uninstall
 the app, all data is gone.
 
@@ -28,10 +28,10 @@ You have full GDPR rights to access, deletion, and data portability.
 - **App history:** coach-mark status (which tips you have seen), tutorial-completed flags
 
 All this data is stored in an SQLite database and AsyncStorage on your iPhone.
-Neither ArrowTrack nor any third party has access to this data.
+Neither JacArrow nor any third party has access to this data.
 
 ### iCloud (only when iCloud Drive is enabled)
-ArrowTrack plans to use iCloud Key-Value Storage for one specific purpose:
+JacArrow plans to use iCloud Key-Value Storage for one specific purpose:
 to remember whether you have started the trial period before. This syncs
 via your iCloud account to prevent uninstall + reinstall from granting a
 new free trial period.
@@ -41,7 +41,7 @@ new free trial period.
 - This feature activates when we launch the Pro model (Phase 4b)
 
 If you have disabled iCloud Drive, or disabled iCloud Drive specifically
-for ArrowTrack, iCloud is not used.
+for JacArrow, iCloud is not used.
 
 ---
 
@@ -54,13 +54,13 @@ addresses, or other payment details. Apple's
 purchase flow.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack sends local notifications (PR achieved, trial-period expiration,
+JacArrow sends local notifications (PR achieved, trial-period expiration,
 goal reminders). To deliver these, iOS registers an anonymous device token
 with Apple. We have no servers sending push messages — all notifications are
 generated locally on your device based on app state.
 
 ### RevenueCat (only after Pro purchase)
-When you purchase ArrowTrack Pro, RevenueCat records your receipt and an
+When you purchase JacArrow Pro, RevenueCat records your receipt and an
 anonymous `appUserId` (a UUID generated on your device). This is necessary
 for the app to verify your purchase on later use and during «Restore
 Purchases». RevenueCat's
@@ -70,7 +70,7 @@ your name, email, or other personal data.
 ### Apple Analytics / Crash Reports
 If you have enabled «Share App Analytics» in iOS Settings, Apple sends
 anonymous aggregate data about usage and crashes to the developer.
-ArrowTrack uses this for bug fixes and performance optimization. You can
+JacArrow uses this for bug fixes and performance optimization. You can
 disable this via:
 **iOS Settings → Privacy & Security → Analytics & Improvements**.
 
@@ -104,12 +104,12 @@ This is your complete shooting history in a standard format.
 
 **Right to erasure (Art. 17):**
 - *Delete individual session:* swipe the session on the home screen → Delete
-- *Delete all data:* uninstall ArrowTrack — iOS automatically deletes all
+- *Delete all data:* uninstall JacArrow — iOS automatically deletes all
   SQLite database and AsyncStorage. RevenueCat receipt (if you have
   purchased Pro) is retained by Apple and RevenueCat for refund and support
   purposes.
 
-**Right to restriction and objection (Art. 18–21):** ArrowTrack does not
+**Right to restriction and objection (Art. 18–21):** JacArrow does not
 make any automated decisions about you. The Smart Insights engine only
 analyzes your own training data locally on your device and presents
 observations — it makes no decisions on your behalf.

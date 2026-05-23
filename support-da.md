@@ -1,4 +1,4 @@
-# Support — ArrowTrack
+# Support — JacArrow
 
 **Sidst opdateret:** 2026-05-20
 **Version dækket:** v1.0+
@@ -10,7 +10,7 @@
 
 ### Hvordan registrerer jeg en serie?
 
-1. Åbn ArrowTrack → tryk **Nyt pas** på Hjem-fanen
+1. Åbn JacArrow → tryk **Nyt pas** på Hjem-fanen
 2. Vælg bane, skive og runde-format → tryk **Start pas**
 3. **Tryk på skiven** for at placere hver pil — brug pinch-zoom og præcisionsluppen for nøjagtighed
 4. Tryk **Gem serie**, når alle pile er placeret
@@ -18,7 +18,7 @@
 
 ### Hvad er forskellen på X og 10?
 
-X-ringen er den inderste ring og giver 10 point — det samme som 10-ringen. ArrowTrack registrerer X separat, fordi X bruges som omkamp i konkurrencer. Tryk «X»-knappen, når en pil rammer X-ringen i score-pad-tilstand.
+X-ringen er den inderste ring og giver 10 point — det samme som 10-ringen. JacArrow registrerer X separat, fordi X bruges som omkamp i konkurrencer. Tryk «X»-knappen, når en pil rammer X-ringen i score-pad-tilstand.
 
 ### Hvordan retter jeg en fejlplaceret pil?
 
@@ -43,9 +43,9 @@ I score-pad-tilstand: tryk på pil-badgen i score-pad og vælg en ny værdi.
 
 ### Hvordan gendanner jeg køb på en ny iPhone?
 
-1. Download ArrowTrack på den nye iPhone (gratis-versionen)
+1. Download JacArrow på den nye iPhone (gratis-versionen)
 2. Log ind med samme Apple-ID, du brugte til at købe Pro
-3. Åbn ArrowTrack → **Indstillinger → Licens → Gendan køb**
+3. Åbn JacArrow → **Indstillinger → Licens → Gendan køb**
 4. Pro reaktiveres automatisk
 
 Hvis du har skiftet Apple-ID: kontakt galge.vender.0a@icloud.com, så hjælper vi dig.
@@ -58,7 +58,7 @@ JSON'en indeholder alle pas, runder, pile, mål, bue-opsætninger og indstilling
 
 ### Hvordan sletter jeg alle mine data?
 
-Afinstallér ArrowTrack → iOS fjerner automatisk hele SQLite-databasen og alle indstillinger. Ingen restdata bliver tilbage på enheden.
+Afinstallér JacArrow → iOS fjerner automatisk hele SQLite-databasen og alle indstillinger. Ingen restdata bliver tilbage på enheden.
 
 Hvis du har købt Pro: kvitteringen forbliver hos Apple (til refusion og support). Afinstallation påvirker ikke fremtidige geninstallationer — Pro reaktiveres automatisk via Gendan køb.
 
@@ -92,14 +92,14 @@ Alle formater følger officiel WA Book 3-overholdelse: linjereglen, separat X-re
 ### Appen crasher ved opstart
 
 1. Sluk iPhone og tænd igen
-2. Hvis problemet fortsætter: afinstallér og geninstallér ArrowTrack (købsdata mistes IKKE — kvitteringen forbliver hos Apple)
-3. Send crash-log til galge.vender.0a@icloud.com: **Indstillinger → Anonymitet og sikkerhed → Analyse og forbedringer → Analysedata** → find ArrowTrack-loggen → del med os
+2. Hvis problemet fortsætter: afinstallér og geninstallér JacArrow (købsdata mistes IKKE — kvitteringen forbliver hos Apple)
+3. Send crash-log til galge.vender.0a@icloud.com: **Indstillinger → Anonymitet og sikkerhed → Analyse og forbedringer → Analysedata** → find JacArrow-loggen → del med os
 
 Hvis du har valgt at dele analyse med udvikleren via iOS, sendes crash-logs automatisk til os.
 
 ### Pointdata forsvandt efter opdatering
 
-ArrowTrack gemmer alt lokalt i SQLite. Opdateringer migrerer databasen kun fremad — gamle data konverteres til nyt format, slettes aldrig.
+JacArrow gemmer alt lokalt i SQLite. Opdateringer migrerer databasen kun fremad — gamle data konverteres til nyt format, slettes aldrig.
 
 Hvis du oplever datatab:
 1. Verificér, at du er logget ind med samme Apple-ID
@@ -112,7 +112,7 @@ Vi har en streng regel om, at offentliggjorte migrationer er uforanderlige — d
 
 1. Prøv med to fingre, ikke én
 2. Tjek, at du ikke har «Reducér bevægelse» slået til i **iOS-indstillinger → Tilgængelighed → Bevægelse** — det kan begrænse gestures i nogle apps
-3. Luk appen helt (stryg op fra bunden, stryg ArrowTrack opad) og åbn igen
+3. Luk appen helt (stryg op fra bunden, stryg JacArrow opad) og åbn igen
 
 ### Konstellationsvisningen vibrerer ved træk
 
@@ -138,7 +138,7 @@ Send en e-mail til galge.vender.0a@icloud.com med:
 - **Hvad du forventede skulle ske**
 - **Trin-for-trin** for at reproducere
 - **iOS-version** og **iPhone-model** (Indstillinger → Generelt → Om)
-- **ArrowTrack-version** (Indstillinger → Om appen)
+- **JacArrow-version** (Indstillinger → Om appen)
 - Skærmbillede hvis relevant
 
 ### Generelt
@@ -148,7 +148,7 @@ Vi svarer på alle henvendelser inden for 3 hverdage. Akutte problemer (crashes 
 
 ## GDPR og privatliv
 
-For fuld privatlivspolitik: [Privatliv](https://mjacobsen71.github.io/arrowtrack-legal/privacy-da)
+For fuld privatlivspolitik: [Privatliv](https://mjacobsen71.github.io/jacarrow-legal/privacy-da)
 
 For at eksportere dine data, slette et pas eller udøve andre GDPR-rettigheder: se Privatlivspolitikken.
 
@@ -156,13 +156,13 @@ Privatlivsklager: kontakt os **først** på galge.vender.0a@icloud.com. Hvis vi 
 
 ---
 
-## Om ArrowTrack
+## Om JacArrow
 
 **Udvikler:** Morten Jacobsen, Norge
-**Hjemmeside:** [mjacobsen71.github.io/arrowtrack-legal](https://mjacobsen71.github.io/arrowtrack-legal)
-**Privatlivspolitik:** [Privatliv](https://mjacobsen71.github.io/arrowtrack-legal/privacy-da)
+**Hjemmeside:** [mjacobsen71.github.io/jacarrow-legal](https://mjacobsen71.github.io/jacarrow-legal)
+**Privatlivspolitik:** [Privatliv](https://mjacobsen71.github.io/jacarrow-legal/privacy-da)
 **Licenser (open source):** se Indstillinger → Om appen → Licenser i appen
 
-ArrowTrack er et solo-udvikler-projekt bygget til bueskytter på alle niveauer — fra din første pil til din hundrede konkurrence. WA Book 3-kompatibel scoring er der fra dag ét, klar når du vil. Bygget med React Native + Expo + TypeScript + SQLite. Ingen backend, ingen sky, ingen sporing.
+JacArrow er et solo-udvikler-projekt bygget til bueskytter på alle niveauer — fra din første pil til din hundrede konkurrence. WA Book 3-kompatibel scoring er der fra dag ét, klar når du vil. Bygget med React Native + Expo + TypeScript + SQLite. Ingen backend, ingen sky, ingen sporing.
 
 Tak fordi du bruger appen. 🏹

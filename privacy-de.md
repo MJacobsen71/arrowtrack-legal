@@ -1,4 +1,4 @@
-# Datenschutzerklärung — ArrowTrack
+# Datenschutzerklärung — JacArrow
 
 **Zuletzt aktualisiert:** 2026-05-20
 **Verantwortlicher:** Morten Jacobsen, Norwegen
@@ -8,7 +8,7 @@
 
 ## Kurzfassung
 
-ArrowTrack speichert **alle deine Daten lokal auf deinem Gerät**. Wir haben keine
+JacArrow speichert **alle deine Daten lokal auf deinem Gerät**. Wir haben keine
 Server, die deine Schüsse, Trainingseinheiten oder Ziele empfangen. Wenn du
 die App deinstallierst, sind alle Daten weg.
 
@@ -28,10 +28,10 @@ Du hast nach DSGVO volle Rechte auf Auskunft, Löschung und Datenübertragbarkei
 - **App-Verlauf:** Coach-Mark-Status (welche Tipps du gesehen hast), Tutorial-Abschluss-Flags
 
 Alle diese Daten werden in einer SQLite-Datenbank und in AsyncStorage auf deinem iPhone gespeichert.
-Weder ArrowTrack noch ein Dritter hat Zugriff auf diese Daten.
+Weder JacArrow noch ein Dritter hat Zugriff auf diese Daten.
 
 ### iCloud (nur bei aktiviertem iCloud Drive)
-ArrowTrack plant, iCloud Key-Value Storage für einen spezifischen Zweck zu nutzen:
+JacArrow plant, iCloud Key-Value Storage für einen spezifischen Zweck zu nutzen:
 um sich zu merken, ob du den Testzeitraum bereits begonnen hast. Dies synchronisiert
 sich über dein iCloud-Konto, um zu verhindern, dass Deinstallation + Neuinstallation
 einen neuen kostenlosen Testzeitraum gewährt.
@@ -41,7 +41,7 @@ einen neuen kostenlosen Testzeitraum gewährt.
 - Diese Funktion wird aktiviert, wenn wir das Pro-Modell starten (Phase 4b)
 
 Wenn du iCloud Drive deaktiviert hast oder iCloud Drive speziell für
-ArrowTrack deaktiviert hast, wird iCloud nicht genutzt.
+JacArrow deaktiviert hast, wird iCloud nicht genutzt.
 
 ---
 
@@ -54,13 +54,13 @@ Adressen oder andere Zahlungsdetails. Apples
 den Kaufvorgang.
 
 ### Apple Push Notification Service (APNS)
-ArrowTrack sendet lokale Benachrichtigungen (PR erreicht, Ablauf des Testzeitraums,
+JacArrow sendet lokale Benachrichtigungen (PR erreicht, Ablauf des Testzeitraums,
 Zielerinnerungen). Um diese zuzustellen, registriert iOS ein anonymes Geräte-Token
 bei Apple. Wir haben keine Server, die Push-Nachrichten senden — alle Benachrichtigungen
 werden lokal auf deinem Gerät basierend auf dem App-Zustand generiert.
 
 ### RevenueCat (nur nach Pro-Kauf)
-Wenn du ArrowTrack Pro kaufst, zeichnet RevenueCat deine Quittung und eine
+Wenn du JacArrow Pro kaufst, zeichnet RevenueCat deine Quittung und eine
 anonyme `appUserId` (eine auf deinem Gerät generierte UUID) auf. Dies ist notwendig,
 damit die App deinen Kauf bei späterer Nutzung und beim «Käufe
 wiederherstellen» überprüfen kann. RevenueCats
@@ -70,7 +70,7 @@ deinen Namen, deine E-Mail oder andere personenbezogene Daten.
 ### Apple Analytics / Crash Reports
 Wenn du «App-Analyse teilen» in den iOS-Einstellungen aktiviert hast, sendet Apple
 anonyme aggregierte Daten über Nutzung und Abstürze an den Entwickler.
-ArrowTrack nutzt dies für Fehlerbehebungen und Performance-Optimierung. Du kannst
+JacArrow nutzt dies für Fehlerbehebungen und Performance-Optimierung. Du kannst
 dies deaktivieren über:
 **iOS-Einstellungen → Datenschutz & Sicherheit → Analyse & Verbesserungen**.
 
@@ -104,12 +104,12 @@ usw. geteilt werden. Dies ist deine komplette Schieß-Historie in einem Standard
 
 **Recht auf Löschung (Art. 17):**
 - *Einzelne Trainingseinheit löschen:* Wische die Einheit auf dem Startbildschirm → Löschen
-- *Alle Daten löschen:* Deinstalliere ArrowTrack — iOS löscht automatisch die gesamte
+- *Alle Daten löschen:* Deinstalliere JacArrow — iOS löscht automatisch die gesamte
   SQLite-Datenbank und AsyncStorage. Die RevenueCat-Quittung (falls du
   Pro gekauft hast) bleibt bei Apple und RevenueCat für Erstattungs- und Support-Zwecke
   erhalten.
 
-**Recht auf Einschränkung und Widerspruch (Art. 18–21):** ArrowTrack trifft
+**Recht auf Einschränkung und Widerspruch (Art. 18–21):** JacArrow trifft
 keinerlei automatisierte Entscheidungen über dich. Die Smart-Insights-Engine analysiert
 nur deine eigenen Trainingsdaten lokal auf deinem Gerät und präsentiert
 Beobachtungen — sie trifft keine Entscheidungen in deinem Namen.
