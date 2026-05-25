@@ -1,6 +1,6 @@
 # Privacybeleid — JacArrow
 
-**Laatst bijgewerkt:** 2026-05-20
+**Laatst bijgewerkt:** 2026-05-25
 **Verwerkingsverantwoordelijke:** Morten Jacobsen, Noorwegen
 **Contact:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ de app verwijdert, zijn alle data weg.
 De enige derde partijen die informatie ontvangen, zijn:
 - **Apple** — verwerkt App Store-aankopen en meldingen
 - **RevenueCat** (na je Pro-aankoop) — verifieert je aankoop
+- **Sentry** (alleen als je crashrapporten inschakelt) — ontvangt anonieme crashgegevens om ons te helpen bugs te verhelpen
 
 Je hebt alle AVG-rechten op inzage, verwijdering en dataportabiliteit.
 
@@ -73,6 +74,26 @@ anonieme geaggregeerde data over gebruik en crashes naar de ontwikkelaar.
 JacArrow gebruikt dit voor bugfixes en prestatie-optimalisatie. Je kunt
 dit uitschakelen via:
 **iOS-instellingen → Privacy en beveiliging → Analyse en verbeteringen**.
+
+### Sentry (alleen als je crashrapporten hebt ingeschakeld)
+Sentry is een foutmonitoringdienst die ons helpt bugs in JacArrow te identificeren
+en te verhelpen. Sentry ontvangt alleen gegevens als je daar **uitdrukkelijk
+toestemming** voor hebt gegeven via **Instellingen → Privacy → Crashrapporten**
+(de schakelaar staat standaard UIT).
+
+Wanneer ingeschakeld wordt het volgende naar Sentry's EU-servers (Duitsland) gestuurd:
+- Crash-stack traces (bestandsnamen, regelnummers, exception-typen)
+- Apparaatmodel en iOS-versie
+- App-versie en build-nummer
+
+We sturen **niet**:
+- Persoonlijke informatie (geen naam, geen e-mail, geen aan identiteit gekoppelde gebruikers-ID)
+- Performance traces of transacties (`tracesSampleRate: 0`)
+- IP-adressen (`sendDefaultPii: false`)
+
+Je kunt crashrapporten op elk moment uitschakelen via dezelfde schakelaar. Wanneer
+uitgeschakeld wordt Sentry **niet geïnitialiseerd** en worden er geen netwerkverzoeken gedaan.
+Het [privacybeleid van Sentry](https://sentry.io/privacy/) is van toepassing op ontvangen gegevens.
 
 ---
 

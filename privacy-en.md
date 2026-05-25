@@ -1,6 +1,6 @@
 # Privacy Policy — JacArrow
 
-**Last updated:** 2026-05-15
+**Last updated:** 2026-05-25
 **Data Controller:** Morten Jacobsen, Norway
 **Contact:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ the app, all data is gone.
 The only third parties that receive information are:
 - **Apple** — handles App Store purchases and notifications
 - **RevenueCat** (after you purchase Pro) — verifies your purchase
+- **Sentry** (only if you opt in to crash reporting) — receives anonymous crash data to help us fix bugs
 
 You have full GDPR rights to access, deletion, and data portability.
 
@@ -73,6 +74,26 @@ anonymous aggregate data about usage and crashes to the developer.
 JacArrow uses this for bug fixes and performance optimization. You can
 disable this via:
 **iOS Settings → Privacy & Security → Analytics & Improvements**.
+
+### Sentry (only if you have enabled crash reporting)
+Sentry is an error monitoring service that helps us identify and fix bugs
+in JacArrow. Sentry only receives data if you have **explicitly opted in**
+via **Settings → Privacy → Crash reports** (the toggle is OFF by default).
+
+When opted in, the following is sent to Sentry's EU servers (Germany):
+- Crash stack traces (file names, line numbers, exception types)
+- Device model and iOS version
+- App version and build number
+
+We do **not** send:
+- Personal information (no name, no email, no user ID linked to identity)
+- Performance traces or transactions (`tracesSampleRate: 0`)
+- IP addresses (`sendDefaultPii: false`)
+
+You can disable crash reporting at any time via the same toggle. When
+disabled, Sentry is **not initialized** and no network requests are made.
+Sentry's [Privacy Policy](https://sentry.io/privacy/) applies to data
+received.
 
 ---
 

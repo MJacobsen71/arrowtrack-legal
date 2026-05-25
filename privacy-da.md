@@ -1,6 +1,6 @@
 # Privatlivspolitik — JacArrow
 
-**Sidst opdateret:** 2026-05-20
+**Sidst opdateret:** 2026-05-25
 **Dataansvarlig:** Morten Jacobsen, Norge
 **Kontakt:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ appen, forsvinder alle data.
 De eneste tredjeparter, der modtager information, er:
 - **Apple** — håndterer App Store-køb og notifikationer
 - **RevenueCat** (efter du har købt Pro) — verificerer dit køb
+- **Sentry** (kun hvis du aktiverer nedbrudsrapporter) — modtager anonyme nedbrudsdata, så vi kan rette fejl
 
 Du har fulde GDPR-rettigheder til indsigt, sletning og dataportabilitet.
 
@@ -73,6 +74,26 @@ anonyme aggregerede data om brug og nedbrud til udvikleren.
 JacArrow bruger dette til fejlrettelse og ydeevneoptimering. Du kan
 deaktivere dette via:
 **iOS-indstillinger → Anonymitet og sikkerhed → Analyse og forbedringer**.
+
+### Sentry (kun hvis du har aktiveret nedbrudsrapporter)
+Sentry er en fejlovervågningstjeneste, der hjælper os med at identificere og rette
+fejl i JacArrow. Sentry modtager kun data, hvis du har givet
+**udtrykkeligt samtykke** via **Indstillinger → Privatliv → Nedbrudsrapporter**
+(kontakten er som standard SLÅET FRA).
+
+Når den er slået til, sendes følgende til Sentrys EU-servere (Tyskland):
+- Nedbruds-stack traces (filnavne, linjenumre, exception-typer)
+- Enhedsmodel og iOS-version
+- App-version og build-nummer
+
+Vi sender **ikke**:
+- Personlige oplysninger (intet navn, ingen e-mail, intet bruger-ID knyttet til identitet)
+- Ydelses-traces eller transaktioner (`tracesSampleRate: 0`)
+- IP-adresser (`sendDefaultPii: false`)
+
+Du kan deaktivere nedbrudsrapporter når som helst via den samme kontakt. Når den er
+deaktiveret, **initialiseres Sentry ikke**, og der foretages ingen netværksanmodninger.
+Sentrys [privatlivspolitik](https://sentry.io/privacy/) gælder for modtagne data.
 
 ---
 

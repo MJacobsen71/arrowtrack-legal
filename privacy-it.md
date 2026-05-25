@@ -1,6 +1,6 @@
 # Informativa sulla privacy — JacArrow
 
-**Ultimo aggiornamento:** 2026-05-20
+**Ultimo aggiornamento:** 2026-05-25
 **Titolare del trattamento:** Morten Jacobsen, Norvegia
 **Contatto:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ l'app, tutti i dati spariscono.
 Le uniche terze parti che ricevono informazioni sono:
 - **Apple** — gestisce gli acquisti su App Store e le notifiche
 - **RevenueCat** (dopo l'acquisto di Pro) — verifica il tuo acquisto
+- **Sentry** (solo se attivi le segnalazioni di crash) — riceve dati anonimi sui crash per aiutarci a correggere i bug
 
 Hai i pieni diritti GDPR di accesso, cancellazione e portabilità dei dati.
 
@@ -67,12 +68,32 @@ affinché l'app possa verificare il tuo acquisto in utilizzi successivi e durant
 [politica sulla privacy di RevenueCat](https://www.revenuecat.com/privacy) si applica. Non inviamo mai
 il tuo nome, la tua email o altri dati personali.
 
-### Apple Analytics / Report di crash
+### Apple Analytics / Segnalazioni di crash
 Se hai abilitato «Condividi analisi app» nelle Impostazioni iOS, Apple invia
 dati aggregati anonimi su utilizzo e crash allo sviluppatore.
 JacArrow utilizza questi dati per la correzione dei bug e l'ottimizzazione delle prestazioni. Puoi
 disabilitarlo tramite:
 **Impostazioni iOS → Privacy e sicurezza → Analisi e miglioramenti**.
+
+### Sentry (solo se hai abilitato le segnalazioni di crash)
+Sentry è un servizio di monitoraggio degli errori che ci aiuta a identificare e
+correggere i bug in JacArrow. Sentry riceve dati solo se hai dato
+**esplicito consenso** tramite **Impostazioni → Privacy → Segnalazioni di crash**
+(l'interruttore è disattivato per impostazione predefinita).
+
+Quando attivato, vengono inviati ai server europei di Sentry (Germania):
+- Stack trace dei crash (nomi file, numeri di riga, tipi di eccezione)
+- Modello del dispositivo e versione iOS
+- Versione dell'app e numero di build
+
+**Non** inviamo:
+- Informazioni personali (nessun nome, nessuna email, nessun ID utente collegato all'identità)
+- Trace di performance o transazioni (`tracesSampleRate: 0`)
+- Indirizzi IP (`sendDefaultPii: false`)
+
+Puoi disattivare le segnalazioni di crash in qualsiasi momento tramite lo stesso interruttore. Quando
+disattivato, Sentry **non viene inizializzato** e non vengono effettuate richieste di rete.
+L'[informativa sulla privacy di Sentry](https://sentry.io/privacy/) si applica ai dati ricevuti.
 
 ---
 

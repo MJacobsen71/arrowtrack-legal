@@ -1,6 +1,6 @@
 # Política de privacidad — JacArrow
 
-**Última actualización:** 2026-05-20
+**Última actualización:** 2026-05-25
 **Responsable del tratamiento:** Morten Jacobsen, Noruega
 **Contacto:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ la aplicación, todos los datos desaparecen.
 Los únicos terceros que reciben información son:
 - **Apple** — gestiona las compras de App Store y las notificaciones
 - **RevenueCat** (después de comprar Pro) — verifica tu compra
+- **Sentry** (solo si activas los informes de fallos) — recibe datos anónimos de fallos para ayudarnos a corregir errores
 
 Tienes todos los derechos RGPD de acceso, supresión y portabilidad de los datos.
 
@@ -73,6 +74,26 @@ datos agregados anónimos sobre uso y fallos al desarrollador.
 JacArrow los usa para corrección de errores y optimización de rendimiento. Puedes
 desactivarlo en:
 **Ajustes de iOS → Privacidad y seguridad → Análisis y mejoras**.
+
+### Sentry (solo si has activado los informes de fallos)
+Sentry es un servicio de monitorización de errores que nos ayuda a identificar y
+corregir errores en JacArrow. Sentry solo recibe datos si has dado tu
+**consentimiento explícito** a través de **Ajustes → Privacidad → Informes de fallos**
+(el interruptor está desactivado por defecto).
+
+Cuando se activa, se envía lo siguiente a los servidores europeos de Sentry (Alemania):
+- Trazas de pila de fallos (nombres de archivos, números de línea, tipos de excepción)
+- Modelo de dispositivo y versión de iOS
+- Versión de la app y número de build
+
+**No** enviamos:
+- Información personal (sin nombre, sin correo electrónico, sin ID de usuario vinculado a la identidad)
+- Trazas de rendimiento ni transacciones (`tracesSampleRate: 0`)
+- Direcciones IP (`sendDefaultPii: false`)
+
+Puedes desactivar los informes de fallos en cualquier momento con el mismo interruptor. Cuando
+está desactivado, Sentry **no se inicializa** y no se realiza ninguna solicitud de red.
+La [política de privacidad de Sentry](https://sentry.io/privacy/) se aplica a los datos recibidos.
 
 ---
 

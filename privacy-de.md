@@ -1,6 +1,6 @@
 # Datenschutzerklärung — JacArrow
 
-**Zuletzt aktualisiert:** 2026-05-20
+**Zuletzt aktualisiert:** 2026-05-25
 **Verantwortlicher:** Morten Jacobsen, Norwegen
 **Kontakt:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ die App deinstallierst, sind alle Daten weg.
 Die einzigen Dritten, die Informationen erhalten, sind:
 - **Apple** — wickelt App-Store-Käufe und Benachrichtigungen ab
 - **RevenueCat** (nachdem du Pro gekauft hast) — überprüft deinen Kauf
+- **Sentry** (nur wenn du Absturzberichten zustimmst) — erhält anonyme Absturzdaten, damit wir Fehler beheben können
 
 Du hast nach DSGVO volle Rechte auf Auskunft, Löschung und Datenübertragbarkeit.
 
@@ -73,6 +74,26 @@ anonyme aggregierte Daten über Nutzung und Abstürze an den Entwickler.
 JacArrow nutzt dies für Fehlerbehebungen und Performance-Optimierung. Du kannst
 dies deaktivieren über:
 **iOS-Einstellungen → Datenschutz & Sicherheit → Analyse & Verbesserungen**.
+
+### Sentry (nur wenn du Absturzberichte aktiviert hast)
+Sentry ist ein Fehlerüberwachungsdienst, der uns hilft, Bugs in JacArrow zu
+identifizieren und zu beheben. Sentry erhält nur dann Daten, wenn du dem
+**ausdrücklich zugestimmt** hast über **Einstellungen → Datenschutz → Absturzberichte**
+(der Schalter ist standardmäßig AUS).
+
+Nach Opt-in wird Folgendes an Sentrys EU-Server (Deutschland) gesendet:
+- Absturz-Stack-Traces (Dateinamen, Zeilennummern, Exception-Typen)
+- Gerätemodell und iOS-Version
+- App-Version und Build-Nummer
+
+Wir senden **nicht**:
+- Persönliche Informationen (kein Name, keine E-Mail, keine identitätsverknüpfte Nutzer-ID)
+- Performance-Traces oder Transaktionen (`tracesSampleRate: 0`)
+- IP-Adressen (`sendDefaultPii: false`)
+
+Du kannst Absturzberichte jederzeit über denselben Schalter deaktivieren. Wenn
+deaktiviert, wird Sentry **nicht initialisiert** und es werden keine Netzwerkanfragen gestellt.
+Sentrys [Datenschutzrichtlinie](https://sentry.io/privacy/) gilt für empfangene Daten.
 
 ---
 

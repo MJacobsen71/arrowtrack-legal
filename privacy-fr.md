@@ -1,6 +1,6 @@
 # Politique de confidentialité — JacArrow
 
-**Dernière mise à jour :** 2026-05-20
+**Dernière mise à jour :** 2026-05-25
 **Responsable du traitement :** Morten Jacobsen, Norvège
 **Contact :** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ l'application, toutes les données disparaissent.
 Les seuls tiers qui reçoivent des informations sont :
 - **Apple** — gère les achats App Store et les notifications
 - **RevenueCat** (après votre achat Pro) — vérifie votre achat
+- **Sentry** (uniquement si vous activez les rapports de plantage) — reçoit des données de plantage anonymes pour nous aider à corriger les bugs
 
 Vous disposez de l'intégralité des droits RGPD : accès, effacement et portabilité des données.
 
@@ -73,6 +74,26 @@ des données agrégées anonymes sur l'utilisation et les plantages au développ
 JacArrow utilise cela pour la correction de bugs et l'optimisation des performances. Vous pouvez
 désactiver cela via :
 **Réglages iOS → Confidentialité et sécurité → Analyse et améliorations**.
+
+### Sentry (uniquement si vous avez activé les rapports de plantage)
+Sentry est un service de surveillance d'erreurs qui nous aide à identifier et corriger
+les bugs dans JacArrow. Sentry ne reçoit des données que si vous y avez
+**explicitement consenti** via **Réglages → Confidentialité → Rapports de plantage**
+(l'interrupteur est désactivé par défaut).
+
+Une fois activé, les éléments suivants sont envoyés aux serveurs européens de Sentry (Allemagne) :
+- Traces de pile de plantage (noms de fichiers, numéros de ligne, types d'exception)
+- Modèle d'appareil et version iOS
+- Version de l'app et numéro de build
+
+Nous n'envoyons **pas** :
+- Informations personnelles (pas de nom, pas d'e-mail, pas d'identifiant utilisateur lié à l'identité)
+- Traces de performance ou transactions (`tracesSampleRate: 0`)
+- Adresses IP (`sendDefaultPii: false`)
+
+Vous pouvez désactiver les rapports de plantage à tout moment via le même interrupteur. Une fois
+désactivé, Sentry n'est **pas initialisé** et aucune requête réseau n'est effectuée.
+La [politique de confidentialité de Sentry](https://sentry.io/privacy/) s'applique aux données reçues.
 
 ---
 

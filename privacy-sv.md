@@ -1,6 +1,6 @@
 # Integritetspolicy — JacArrow
 
-**Senast uppdaterad:** 2026-05-20
+**Senast uppdaterad:** 2026-05-25
 **Personuppgiftsansvarig:** Morten Jacobsen, Norge
 **Kontakt:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ appen försvinner all data.
 De enda tredje parter som tar emot information är:
 - **Apple** — hanterar App Store-köp och notiser
 - **RevenueCat** (efter att du köpt Pro) — verifierar ditt köp
+- **Sentry** (endast om du aktiverar kraschrapporter) — tar emot anonyma kraschdata för att hjälpa oss åtgärda buggar
 
 Du har fullständiga GDPR-rättigheter till tillgång, radering och dataportabilitet.
 
@@ -73,6 +74,26 @@ anonyma aggregerade data om användning och krascher till utvecklaren.
 JacArrow använder detta för felrättning och prestandaoptimering. Du kan
 inaktivera detta via:
 **iOS-inställningar → Integritet och säkerhet → Analys och förbättringar**.
+
+### Sentry (endast om du har aktiverat kraschrapporter)
+Sentry är en felövervakningstjänst som hjälper oss att identifiera och åtgärda
+buggar i JacArrow. Sentry tar endast emot data om du har gett
+**uttryckligt samtycke** via **Inställningar → Integritet → Kraschrapporter**
+(reglaget är AV som standard).
+
+När det är aktiverat skickas följande till Sentrys EU-servrar (Tyskland):
+- Krasch-stackspår (filnamn, radnummer, exception-typer)
+- Enhetsmodell och iOS-version
+- App-version och build-nummer
+
+Vi skickar **inte**:
+- Personlig information (inget namn, ingen e-post, inget användar-ID kopplat till identitet)
+- Prestandaspår eller transaktioner (`tracesSampleRate: 0`)
+- IP-adresser (`sendDefaultPii: false`)
+
+Du kan inaktivera kraschrapporter när som helst via samma reglage. När det är
+inaktiverat **initieras inte** Sentry och inga nätverksförfrågningar görs.
+Sentrys [integritetspolicy](https://sentry.io/privacy/) gäller för mottagen data.
 
 ---
 

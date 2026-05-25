@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö — JacArrow
 
-**Viimeksi päivitetty:** 2026-05-20
+**Viimeksi päivitetty:** 2026-05-25
 **Rekisterinpitäjä:** Morten Jacobsen, Norja
 **Yhteystiedot:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ poistat sovelluksen, kaikki tiedot katoavat.
 Ainoat kolmannet osapuolet, jotka saavat tietoja, ovat:
 - **Apple** — käsittelee App Store -ostot ja ilmoitukset
 - **RevenueCat** (Pro-oston jälkeen) — varmistaa ostosi
+- **Sentry** (vain jos otat kaatumisraportit käyttöön) — vastaanottaa anonyymejä kaatumistietoja, jotta voimme korjata virheitä
 
 Sinulla on täydet GDPR-oikeudet pääsyyn, poistoon ja tietojen siirrettävyyteen.
 
@@ -73,6 +74,26 @@ anonyymejä koostettuja tietoja käytöstä ja kaatumisista kehittäjälle.
 JacArrow käyttää tätä virheenkorjaukseen ja suorituskyvyn optimointiin. Voit
 poistaa tämän käytöstä:
 **iOS-asetukset → Tietosuoja ja turvallisuus → Analytiikka ja parannukset**.
+
+### Sentry (vain jos olet ottanut kaatumisraportit käyttöön)
+Sentry on virheidenseurantapalvelu, joka auttaa meitä tunnistamaan ja korjaamaan
+virheitä JacArrowissa. Sentry vastaanottaa tietoja vain, jos olet antanut siihen
+**nimenomaisen suostumuksen** kohdasta **Asetukset → Tietosuoja → Kaatumisraportit**
+(kytkin on oletuksena POIS päältä).
+
+Kun ominaisuus on käytössä, Sentryn EU-palvelimille (Saksa) lähetetään seuraavat:
+- Kaatumisten pinojäljet (tiedostonimet, rivinumerot, poikkeustyypit)
+- Laitemalli ja iOS-versio
+- Sovellusversio ja build-numero
+
+Emme lähetä:
+- Henkilökohtaisia tietoja (ei nimeä, ei sähköpostia, ei identiteettiin liitettyä käyttäjätunnusta)
+- Suorituskykyjälkiä tai tapahtumia (`tracesSampleRate: 0`)
+- IP-osoitteita (`sendDefaultPii: false`)
+
+Voit poistaa kaatumisraportit käytöstä milloin tahansa samalla kytkimellä. Kun ominaisuus on
+poissa käytöstä, Sentryä **ei alusteta** eikä verkkopyyntöjä tehdä.
+Sentryn [tietosuojakäytäntö](https://sentry.io/privacy/) koskee vastaanotettuja tietoja.
 
 ---
 

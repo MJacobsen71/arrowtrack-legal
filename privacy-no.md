@@ -1,6 +1,6 @@
 # Personvernerklæring — JacArrow
 
-**Sist oppdatert:** 2026-05-15
+**Sist oppdatert:** 2026-05-25
 **Behandlingsansvarlig:** Morten Jacobsen, Norge
 **Kontakt:** galge.vender.0a@icloud.com
 
@@ -15,6 +15,7 @@ avinstallerer appen forsvinner all data.
 De eneste tredjepartene som mottar informasjon er:
 - **Apple** — håndterer App Store-kjøp og varsler
 - **RevenueCat** (etter du har kjøpt Pro) — verifiserer kjøpet
+- **Sentry** (kun hvis du aktiverer krasj-rapportering) — mottar anonyme krasjdata for å hjelpe oss å fikse feil
 
 Du har full rett til innsyn, sletting og dataportabilitet under GDPR.
 
@@ -71,6 +72,27 @@ Hvis du har aktivert «Del app-analyse» i iOS-innstillinger sender Apple
 anonyme aggregat-data om bruk og krasj til utvikleren. JacArrow bruker dette
 til feilretting og ytelses-optimering. Du kan deaktivere dette via:
 **iOS Innstillinger → Personvern og sikkerhet → Analyse og forbedringer**.
+
+### Sentry (kun hvis du har aktivert krasj-rapportering)
+Sentry er en feilovervåkings-tjeneste som hjelper oss å identifisere og
+fikse feil i JacArrow. Sentry mottar kun data hvis du har **eksplisitt
+aktivert** funksjonen via **Innstillinger → Personvern → Krasj-rapporter**
+(toggle-en er AV som standard).
+
+Når aktivert, sendes følgende til Sentrys EU-servere (Tyskland):
+- Stack traces for krasj (filnavn, linjenumre, exception-typer)
+- Enhetsmodell og iOS-versjon
+- App-versjon og build-nummer
+
+Vi sender **ikke**:
+- Personopplysninger (ingen navn, e-post, eller bruker-ID koblet til identitet)
+- Performance-traces eller transaksjoner (`tracesSampleRate: 0`)
+- IP-adresser (`sendDefaultPii: false`)
+
+Du kan deaktivere krasj-rapportering når som helst via samme toggle. Når
+deaktivert er Sentry **ikke initialisert** og ingen nettverkskall gjøres.
+Sentrys [personvernerklæring](https://sentry.io/privacy/) gjelder for
+mottatte data.
 
 ---
 
